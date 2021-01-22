@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8428375F25BA882300EE9314 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428375E25BA882300EE9314 /* Tests_iOS.swift */; };
+		8428376A25BA882300EE9314 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428376925BA882300EE9314 /* Tests_macOS.swift */; };
+		8428376C25BA882300EE9314 /* CrossWind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8428374025BA882200EE9314 /* CrossWind.xcdatamodeld */; };
+		8428376D25BA882300EE9314 /* CrossWind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8428374025BA882200EE9314 /* CrossWind.xcdatamodeld */; };
+		8428376E25BA882300EE9314 /* CrossWindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374225BA882200EE9314 /* CrossWindApp.swift */; };
+		8428376F25BA882300EE9314 /* CrossWindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374225BA882200EE9314 /* CrossWindApp.swift */; };
+		8428377025BA882300EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
+		8428377125BA882300EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
+		8428377225BA882300EE9314 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374425BA882200EE9314 /* Persistence.swift */; };
+		8428377325BA882300EE9314 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374425BA882200EE9314 /* Persistence.swift */; };
+		8428377425BA882300EE9314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428374525BA882300EE9314 /* Assets.xcassets */; };
+		8428377525BA882300EE9314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428374525BA882300EE9314 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8428375B25BA882300EE9314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8428373B25BA882200EE9314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8428374925BA882300EE9314;
+			remoteInfo = "CrossWind (iOS)";
+		};
+		8428376625BA882300EE9314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8428373B25BA882200EE9314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8428375125BA882300EE9314;
+			remoteInfo = "CrossWind (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8428374125BA882200EE9314 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		8428374225BA882200EE9314 /* CrossWindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWindApp.swift; sourceTree = "<group>"; };
+		8428374325BA882200EE9314 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8428374425BA882200EE9314 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8428374525BA882300EE9314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8428374A25BA882300EE9314 /* CrossWind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossWind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8428374D25BA882300EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8428375225BA882300EE9314 /* CrossWind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossWind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8428375425BA882300EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8428375525BA882300EE9314 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8428375A25BA882300EE9314 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8428375E25BA882300EE9314 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		8428376025BA882300EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8428376525BA882300EE9314 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8428376925BA882300EE9314 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		8428376B25BA882300EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8428374725BA882300EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428374F25BA882300EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428375725BA882300EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428376225BA882300EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8428373A25BA882200EE9314 = {
+			isa = PBXGroup;
+			children = (
+				8428373F25BA882200EE9314 /* Shared */,
+				8428374C25BA882300EE9314 /* iOS */,
+				8428375325BA882300EE9314 /* macOS */,
+				8428375D25BA882300EE9314 /* Tests iOS */,
+				8428376825BA882300EE9314 /* Tests macOS */,
+				8428374B25BA882300EE9314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8428373F25BA882200EE9314 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8428374225BA882200EE9314 /* CrossWindApp.swift */,
+				8428374325BA882200EE9314 /* ContentView.swift */,
+				8428374425BA882200EE9314 /* Persistence.swift */,
+				8428374525BA882300EE9314 /* Assets.xcassets */,
+				8428374025BA882200EE9314 /* CrossWind.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8428374B25BA882300EE9314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8428374A25BA882300EE9314 /* CrossWind.app */,
+				8428375225BA882300EE9314 /* CrossWind.app */,
+				8428375A25BA882300EE9314 /* Tests iOS.xctest */,
+				8428376525BA882300EE9314 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8428374C25BA882300EE9314 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8428374D25BA882300EE9314 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8428375325BA882300EE9314 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8428375425BA882300EE9314 /* Info.plist */,
+				8428375525BA882300EE9314 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		8428375D25BA882300EE9314 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8428375E25BA882300EE9314 /* Tests_iOS.swift */,
+				8428376025BA882300EE9314 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		8428376825BA882300EE9314 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8428376925BA882300EE9314 /* Tests_macOS.swift */,
+				8428376B25BA882300EE9314 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8428374925BA882300EE9314 /* CrossWind (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428377825BA882300EE9314 /* Build configuration list for PBXNativeTarget "CrossWind (iOS)" */;
+			buildPhases = (
+				8428374625BA882300EE9314 /* Sources */,
+				8428374725BA882300EE9314 /* Frameworks */,
+				8428374825BA882300EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrossWind (iOS)";
+			productName = "CrossWind (iOS)";
+			productReference = 8428374A25BA882300EE9314 /* CrossWind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8428375125BA882300EE9314 /* CrossWind (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428377B25BA882300EE9314 /* Build configuration list for PBXNativeTarget "CrossWind (macOS)" */;
+			buildPhases = (
+				8428374E25BA882300EE9314 /* Sources */,
+				8428374F25BA882300EE9314 /* Frameworks */,
+				8428375025BA882300EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrossWind (macOS)";
+			productName = "CrossWind (macOS)";
+			productReference = 8428375225BA882300EE9314 /* CrossWind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8428375925BA882300EE9314 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428377E25BA882300EE9314 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				8428375625BA882300EE9314 /* Sources */,
+				8428375725BA882300EE9314 /* Frameworks */,
+				8428375825BA882300EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8428375C25BA882300EE9314 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 8428375A25BA882300EE9314 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8428376425BA882300EE9314 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428378125BA882300EE9314 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				8428376125BA882300EE9314 /* Sources */,
+				8428376225BA882300EE9314 /* Frameworks */,
+				8428376325BA882300EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8428376725BA882300EE9314 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 8428376525BA882300EE9314 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8428373B25BA882200EE9314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8428374925BA882300EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					8428375125BA882300EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					8428375925BA882300EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8428374925BA882300EE9314;
+					};
+					8428376425BA882300EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8428375125BA882300EE9314;
+					};
+				};
+			};
+			buildConfigurationList = 8428373E25BA882200EE9314 /* Build configuration list for PBXProject "CrossWind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8428373A25BA882200EE9314;
+			productRefGroup = 8428374B25BA882300EE9314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8428374925BA882300EE9314 /* CrossWind (iOS) */,
+				8428375125BA882300EE9314 /* CrossWind (macOS) */,
+				8428375925BA882300EE9314 /* Tests iOS */,
+				8428376425BA882300EE9314 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8428374825BA882300EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428377425BA882300EE9314 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428375025BA882300EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428377525BA882300EE9314 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428375825BA882300EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428376325BA882300EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8428374625BA882300EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428376E25BA882300EE9314 /* CrossWindApp.swift in Sources */,
+				8428377225BA882300EE9314 /* Persistence.swift in Sources */,
+				8428376C25BA882300EE9314 /* CrossWind.xcdatamodeld in Sources */,
+				8428377025BA882300EE9314 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428374E25BA882300EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428376F25BA882300EE9314 /* CrossWindApp.swift in Sources */,
+				8428377325BA882300EE9314 /* Persistence.swift in Sources */,
+				8428376D25BA882300EE9314 /* CrossWind.xcdatamodeld in Sources */,
+				8428377125BA882300EE9314 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428375625BA882300EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428375F25BA882300EE9314 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428376125BA882300EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428376A25BA882300EE9314 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8428375C25BA882300EE9314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8428374925BA882300EE9314 /* CrossWind (iOS) */;
+			targetProxy = 8428375B25BA882300EE9314 /* PBXContainerItemProxy */;
+		};
+		8428376725BA882300EE9314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8428375125BA882300EE9314 /* CrossWind (macOS) */;
+			targetProxy = 8428376625BA882300EE9314 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8428377625BA882300EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8428377725BA882300EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8428377925BA882300EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind;
+				PRODUCT_NAME = CrossWind;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8428377A25BA882300EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind;
+				PRODUCT_NAME = CrossWind;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8428377C25BA882300EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind;
+				PRODUCT_NAME = CrossWind;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8428377D25BA882300EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind;
+				PRODUCT_NAME = CrossWind;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8428377F25BA882300EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amadeus.mdes.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CrossWind (iOS)";
+			};
+			name = Debug;
+		};
+		8428378025BA882300EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amadeus.mdes.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CrossWind (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8428378225BA882300EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amadeus.mdes.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CrossWind (macOS)";
+			};
+			name = Debug;
+		};
+		8428378325BA882300EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amadeus.mdes.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CrossWind (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8428373E25BA882200EE9314 /* Build configuration list for PBXProject "CrossWind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428377625BA882300EE9314 /* Debug */,
+				8428377725BA882300EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428377825BA882300EE9314 /* Build configuration list for PBXNativeTarget "CrossWind (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428377925BA882300EE9314 /* Debug */,
+				8428377A25BA882300EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428377B25BA882300EE9314 /* Build configuration list for PBXNativeTarget "CrossWind (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428377C25BA882300EE9314 /* Debug */,
+				8428377D25BA882300EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428377E25BA882300EE9314 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428377F25BA882300EE9314 /* Debug */,
+				8428378025BA882300EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428378125BA882300EE9314 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428378225BA882300EE9314 /* Debug */,
+				8428378325BA882300EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8428374025BA882200EE9314 /* CrossWind.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8428374125BA882200EE9314 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 8428374125BA882200EE9314 /* Shared.xcdatamodel */;
+			path = CrossWind.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8428373B25BA882200EE9314 /* Project object */;
+}
