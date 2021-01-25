@@ -63,3 +63,14 @@ class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertibl
         try container.encode(middleName, forKey: .middleName)
         try container.encode(lastName, forKey: .lastName)
     }
+    
+    
+    var description: String {
+        return """
+            Passenger Model
+
+            Salutation: \(salutation)
+            Name: \(firstName)  \(middleName ?? "N/A") \(lastName ?? "N/A")
+            """
+    }
+}
