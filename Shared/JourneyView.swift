@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct JourneyView: View {
+    
+    var journey: Journey
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(String(describing: journey))
+                .multilineTextAlignment(.leading)
+                .cornerRadius(10)
+                .accentColor(.red)
+                .clipped()
+                .fixedSize()
+        }
     }
+    
 }
 
 struct JourneyView_Previews: PreviewProvider {
@@ -24,7 +35,6 @@ struct JourneyView_Previews: PreviewProvider {
                                         destination: AirportCity(cityCode: "KNP", cityName: "Kanpur"),
                                         arrivalTime: Date(), relayVia: nil)
     static var previews: some View {
-        JourneyView()
         JourneyView(journey: journey)
     }
 }
