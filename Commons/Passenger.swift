@@ -6,6 +6,15 @@
 //
 
 import Foundation
+
+enum Salutation: String, RawRepresentable, Codable, CaseIterable, Identifiable {
+    case Mr
+    case Ms
+    case Mrs
+    
+    var id: String { self.rawValue }
+}
+
 class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertible {
     
     internal init(id: String = UUID().uuidString) {
