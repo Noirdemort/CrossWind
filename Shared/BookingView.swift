@@ -43,6 +43,7 @@ struct BookingView: View {
             Form {
                 Section {
                     TextField("Name")
+                Section(header: Text("Travel Details")) {
                     
                 }
             }
