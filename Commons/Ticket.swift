@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Combine
 
 enum Salutation: String, RawRepresentable {
     case Mr
