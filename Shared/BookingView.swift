@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  BookingView.swift
 //  Shared
 //
 //  Created by Noirdemort on 22/01/21.

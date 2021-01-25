@@ -13,8 +13,8 @@
 		8428376D25BA882300EE9314 /* CrossWind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8428374025BA882200EE9314 /* CrossWind.xcdatamodeld */; };
 		8428376E25BA882300EE9314 /* CrossWindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374225BA882200EE9314 /* CrossWindApp.swift */; };
 		8428376F25BA882300EE9314 /* CrossWindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374225BA882200EE9314 /* CrossWindApp.swift */; };
-		8428377025BA882300EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
-		8428377125BA882300EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
+		8428377025BA882300EE9314 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* BookingView.swift */; };
+		8428377125BA882300EE9314 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* BookingView.swift */; };
 		8428377225BA882300EE9314 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374425BA882200EE9314 /* Persistence.swift */; };
 		8428377325BA882300EE9314 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374425BA882200EE9314 /* Persistence.swift */; };
 		8428377425BA882300EE9314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428374525BA882300EE9314 /* Assets.xcassets */; };
@@ -105,9 +105,9 @@
 		842838BA25BADB5000EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
 		842838BB25BADB5000EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
 		842838BC25BADB5000EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
-		842838C725BE793400EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
-		842838D225BE793500EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
-		842838D325BE793600EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
+		842838C725BE793400EE9314 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* BookingView.swift */; };
+		842838D225BE793500EE9314 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* BookingView.swift */; };
+		842838D325BE793600EE9314 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* BookingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,7 +187,7 @@
 /* Begin PBXFileReference section */
 		8428374125BA882200EE9314 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		8428374225BA882200EE9314 /* CrossWindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWindApp.swift; sourceTree = "<group>"; };
-		8428374325BA882200EE9314 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8428374325BA882200EE9314 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		8428374425BA882200EE9314 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8428374525BA882300EE9314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8428374A25BA882300EE9314 /* CrossWind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossWind.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -338,7 +338,7 @@
 			isa = PBXGroup;
 			children = (
 				8428374225BA882200EE9314 /* CrossWindApp.swift */,
-				8428374325BA882200EE9314 /* ContentView.swift */,
+				8428374325BA882200EE9314 /* BookingView.swift */,
 				8428374425BA882200EE9314 /* Persistence.swift */,
 				8428374525BA882300EE9314 /* Assets.xcassets */,
 				8428374025BA882200EE9314 /* CrossWind.xcdatamodeld */,
@@ -849,7 +849,7 @@
 				842837B725BA8E9700EE9314 /* TelCom.swift in Sources */,
 				842837A025BA8B9500EE9314 /* BoardingPass.swift in Sources */,
 				842837AA25BA8BD900EE9314 /* Networks.swift in Sources */,
-				8428377025BA882300EE9314 /* ContentView.swift in Sources */,
+				8428377025BA882300EE9314 /* BookingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,7 +867,7 @@
 				842837B825BA8E9700EE9314 /* TelCom.swift in Sources */,
 				842837A125BA8B9500EE9314 /* BoardingPass.swift in Sources */,
 				842837AB25BA8BD900EE9314 /* Networks.swift in Sources */,
-				8428377125BA882300EE9314 /* ContentView.swift in Sources */,
+				8428377125BA882300EE9314 /* BookingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,7 +907,7 @@
 			files = (
 				842837EA25BAD78700EE9314 /* Persistence.swift in Sources */,
 				842837ED25BAD78700EE9314 /* BookingClip.xcdatamodeld in Sources */,
-				842838C725BE793400EE9314 /* ContentView.swift in Sources */,
+				842838C725BE793400EE9314 /* BookingView.swift in Sources */,
 				8428386225BADB4D00EE9314 /* BoardingPass.swift in Sources */,
 				842837E325BAD78600EE9314 /* ContentView.swift in Sources */,
 				8428386425BADB4D00EE9314 /* Journey.swift in Sources */,
@@ -929,7 +929,7 @@
 				8428387425BADB4D00EE9314 /* Networks.swift in Sources */,
 				8428387325BADB4D00EE9314 /* BoardingPass.swift in Sources */,
 				8428387825BADB4D00EE9314 /* User.swift in Sources */,
-				842838D225BE793500EE9314 /* ContentView.swift in Sources */,
+				842838D225BE793500EE9314 /* BookingView.swift in Sources */,
 				8428387525BADB4D00EE9314 /* Journey.swift in Sources */,
 				8428387725BADB4D00EE9314 /* Ticket.swift in Sources */,
 				8428387625BADB4D00EE9314 /* TelCom.swift in Sources */,
@@ -945,7 +945,7 @@
 				8428388525BADB4E00EE9314 /* Networks.swift in Sources */,
 				8428388425BADB4E00EE9314 /* BoardingPass.swift in Sources */,
 				8428388925BADB4E00EE9314 /* User.swift in Sources */,
-				842838D325BE793600EE9314 /* ContentView.swift in Sources */,
+				842838D325BE793600EE9314 /* BookingView.swift in Sources */,
 				8428388625BADB4E00EE9314 /* Journey.swift in Sources */,
 				8428388825BADB4E00EE9314 /* Ticket.swift in Sources */,
 				8428388725BADB4E00EE9314 /* TelCom.swift in Sources */,
