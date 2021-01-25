@@ -12,12 +12,8 @@ import Combine
 
 struct BookingView: View {
     
-//    @StateObject var ticket = Ticket()
     @ObservedObject var ticket: Ticket
     
-    var body: some View {
-        VStack(alignment: .center, spacing: 10) {
-            Text("Book Ticket")
     @State var comms: Bool = false
     @State var showPax = false
     @State var cancellableSet = Set<AnyCancellable>()
@@ -41,8 +37,6 @@ struct BookingView: View {
            
         
             Form {
-                Section {
-                    TextField("Name")
                 
                 Section(header: Text("Travel Details")) {
                     
@@ -58,7 +52,6 @@ struct BookingView: View {
                     ExtrasView(extras: ticket.extraServices)
                     
                 }
-            }
                 
                 NavigationLink(
                     destination: PassengerView(passengers: $ticket.passengers)){
@@ -66,7 +59,6 @@ struct BookingView: View {
                 }
                 
             
-        }
                 Section(header: Text("Ticket Details")) {
                     if let data = ticket.qrData, let image = UIImage(data: data){
                         Image(uiImage: image)
@@ -107,18 +99,15 @@ struct BookingView: View {
         }.navigationBarTitle("Ticket Window", displayMode: .automatic)
     }
     
-    
 }
 
 struct BookingView_Previews: PreviewProvider {
     @StateObject static var ticks: Ticket = giveTicket()
     
     static var previews: some View {
-        BookingView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
         BookingView(ticket: ticks).environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
-
 
 func giveTicket() -> Ticket {
     let ticks = Ticket()
