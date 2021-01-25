@@ -21,7 +21,18 @@ struct BookingView: View {
     @State var comms: Bool = false
     @State var showPax = false
     @State var cancellableSet = Set<AnyCancellable>()
+    
+    init(ticket newTicket: Ticket) {
+        ticket = newTicket
+        ticket.commsExist
+            .receive(on: RunLoop.main)
+            .map { commsExist in
+                return commsExist
+            }
+            .assign(to: \.comms, on: self)
+            .store(in: &cancellableSet)
             
+    }
             Form {
                 Section {
                     TextField("Name")
