@@ -83,6 +83,28 @@ struct BookingView: View {
                         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
                         
                 }
+                
+                Button("Book Ticket") {
+                    print(ticket.commsExist)
+                    ticket.commit()
+                }
+                
+            
+            }
+            Button(action: {
+                print(ticket.commsExist)
+                ticket.commit()
+            }, label: {
+                
+                Text("Book Ticket")
+                    .font(.headline)
+                .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 0, idealHeight: 5, maxHeight: .infinity, alignment: .center)
+                .background(Color.blue)
+                .accentColor(.white)
+                .ignoresSafeArea()
+                .scaledToFit()
+            })
+        }.navigationBarTitle("Ticket Window", displayMode: .automatic)
     }
     
     
