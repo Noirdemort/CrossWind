@@ -9,6 +9,7 @@ import Foundation
 
 
 enum Membership: String, RawRepresentable {
+enum Membership: String, RawRepresentable, Codable {
     case gold
     case silver
     case platinum
