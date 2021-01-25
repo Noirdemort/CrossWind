@@ -16,6 +16,21 @@ enum Membership: String, RawRepresentable, Codable {
 }
 
 struct User: Codable, Identifiable {
+struct User: Codable, Identifiable, CustomStringConvertible {
+    
+    var description: String {
+        return """
+            User Model
+            
+            id: \(id)
+            name: \(name)
+            email: \(email)
+            secureHash: \(secureHash)
+            membership: \(membership.rawValue)
+            phone: \(String(describing: phone))
+            """
+    }
+    
     
     var id: String = UUID().uuidString
     
