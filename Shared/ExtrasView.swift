@@ -13,9 +13,17 @@ extension String: Identifiable {
     
 }
 
+
 struct ExtrasView: View {
+    var extras: [String: String] = [:]
+    
+    private var keys: [String] {
+        return extras.map { $0.key }
+    }
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(keys) { Text("\($0): \(extras[$0] ?? "N/A")") }
     }
 }
 
