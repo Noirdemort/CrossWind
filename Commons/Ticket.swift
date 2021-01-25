@@ -140,6 +140,45 @@ class Ticket: Identifiable, ObservableObject, Codable {
         try container.encode(paymentStatus, forKey: .paymentStatus)
         try container.encode(PNR, forKey: .PNR)
     }
+    
+    var description: String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .long
+        
+        return """
+            Ticket Model
+
+            id: \(id)
+            Booking Date: \(dateFormatter.string(from: bookingDate))
+            Phone: \(phone)
+            email: \(email ?? "N/A")
+            passengers: \(passengers.reduce(""){ String(describing: $0) + "\n\n" + String(describing: $1) } )
+            
+            extra services: \(extraServices.values.reduce("") {$0 + ",\n" + $1})
+            
+            QR Code: \(String(describing: Data(base64Encoded: qrData ?? Data.init())))
+
+            Journeys: \(journeys.reduce(""){ String(describing: $0) + "\n\n" + String(describing: $1) } )
+
+            payment: \(paymentStatus)
+            PNR: \(PNR ?? "N/A")
+            
+            """
+    }
+    
+    func commit(){
+        print("Printing Data from object...")
+        print(description)
+        print("Exporting model...")
+        let encoder = JSONEncoder()
+        encoder.dataEncodingStrategy = .deferredToData
+        encoder.keyEncodingStrategy = .convertToSnakeCase
+        let encodedData = try? encoder.encode(self)
+        if let data = encodedData {
+            print(String(data: data, encoding: .utf8) ?? "Failed to Cast Ticket into JSON Object")
+        }
+    }
 }
 
 
