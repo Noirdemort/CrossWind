@@ -43,6 +43,7 @@ struct BookingView: View {
             Form {
                 Section {
                     TextField("Name")
+                
                 Section(header: Text("Travel Details")) {
                     
                     DatePicker("Choose booking date", selection: $ticket.bookingDate, displayedComponents: .date)
@@ -55,8 +56,15 @@ struct BookingView: View {
                    
                     
                     ExtrasView(extras: ticket.extraServices)
+                    
                 }
             }
+                
+                NavigationLink(
+                    destination: PassengerView(passengers: $ticket.passengers)){
+                       Text("Manage Passengers")
+                }
+                
             
         }
     }
