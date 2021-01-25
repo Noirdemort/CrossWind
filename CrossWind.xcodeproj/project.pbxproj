@@ -105,6 +105,9 @@
 		842838BA25BADB5000EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
 		842838BB25BADB5000EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
 		842838BC25BADB5000EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		842838C725BE793400EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
+		842838D225BE793500EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
+		842838D325BE793600EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -904,6 +907,7 @@
 			files = (
 				842837EA25BAD78700EE9314 /* Persistence.swift in Sources */,
 				842837ED25BAD78700EE9314 /* BookingClip.xcdatamodeld in Sources */,
+				842838C725BE793400EE9314 /* ContentView.swift in Sources */,
 				8428386225BADB4D00EE9314 /* BoardingPass.swift in Sources */,
 				842837E325BAD78600EE9314 /* ContentView.swift in Sources */,
 				8428386425BADB4D00EE9314 /* Journey.swift in Sources */,
@@ -925,6 +929,7 @@
 				8428387425BADB4D00EE9314 /* Networks.swift in Sources */,
 				8428387325BADB4D00EE9314 /* BoardingPass.swift in Sources */,
 				8428387825BADB4D00EE9314 /* User.swift in Sources */,
+				842838D225BE793500EE9314 /* ContentView.swift in Sources */,
 				8428387525BADB4D00EE9314 /* Journey.swift in Sources */,
 				8428387725BADB4D00EE9314 /* Ticket.swift in Sources */,
 				8428387625BADB4D00EE9314 /* TelCom.swift in Sources */,
@@ -940,6 +945,7 @@
 				8428388525BADB4E00EE9314 /* Networks.swift in Sources */,
 				8428388425BADB4E00EE9314 /* BoardingPass.swift in Sources */,
 				8428388925BADB4E00EE9314 /* User.swift in Sources */,
+				842838D325BE793600EE9314 /* ContentView.swift in Sources */,
 				8428388625BADB4E00EE9314 /* Journey.swift in Sources */,
 				8428388825BADB4E00EE9314 /* Ticket.swift in Sources */,
 				8428388725BADB4E00EE9314 /* TelCom.swift in Sources */,

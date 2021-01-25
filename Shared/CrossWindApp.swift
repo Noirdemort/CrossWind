@@ -13,7 +13,7 @@ struct CrossWindApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BookingView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
