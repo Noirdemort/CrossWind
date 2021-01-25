@@ -13,10 +13,14 @@ import Combine
 struct BookingView: View {
     
 //    @StateObject var ticket = Ticket()
+    @ObservedObject var ticket: Ticket
     
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
             Text("Book Ticket")
+    @State var comms: Bool = false
+    @State var showPax = false
+    @State var cancellableSet = Set<AnyCancellable>()
             
             Form {
                 Section {
