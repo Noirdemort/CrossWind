@@ -33,6 +33,13 @@ struct BookingView: View {
             .store(in: &cancellableSet)
             
     }
+    
+    var body: some View {
+       
+//        VStack(alignment: .center, spacing: 10)
+         NavigationView {
+           
+        
             Form {
                 Section {
                     TextField("Name")
