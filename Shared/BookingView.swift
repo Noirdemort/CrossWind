@@ -111,12 +111,31 @@ struct BookingView: View {
 }
 
 struct BookingView_Previews: PreviewProvider {
+    @StateObject static var ticks: Ticket = giveTicket()
+    
     static var previews: some View {
         BookingView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        BookingView(ticket: ticks).environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
 
 
+func giveTicket() -> Ticket {
+    let ticks = Ticket()
+    ticks.passengers = [Passenger(salutation: .Mr, firstName: "John", lastName: "Appleseed"), Passenger(salutation: .Mr, firstName: "Tim", lastName: "Cook")]
+    ticks.email = "email@s1guza.net"
+    ticks.journeys = [Journey(flyingClass: .firstClass,
+                              flightNumber: "Some Number",
+                              terminal: "String",
+                              travelDate: Date.init(),
+                              checkInTime: Date(),
+                              departure: AirportCity(cityCode: "BLR", cityName: "Bangalore"),
+                              departureTime: Date(),
+                              destination: AirportCity(cityCode: "KNP", cityName: "Kanpur"),
+                              arrivalTime: Date(), relayVia: nil)]
+    
+    return ticks
+}
 
 //struct ContentView: View {
 //    @Environment(\.managedObjectContext) private var viewContext
