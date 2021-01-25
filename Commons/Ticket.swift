@@ -29,8 +29,11 @@ enum PaymentStatus: String, Codable {
 }
 
 class Ticket: Codable, Identifiable, ObservableObject {
+
+class Ticket: Identifiable, ObservableObject, Codable {
     
     internal init(id: String = UUID().uuidString, status: String, bookingDate: Date, paymentStatus: String, qrData: Data, PNR: String, phone: TelCom? = nil, email: String? = nil, journeys: [Journey], extraServices: [String : String]) {
+    internal init(id: String = UUID().uuidString) {
         self.id = id
         self.status = status
         self.bookingDate = bookingDate
@@ -50,10 +53,35 @@ class Ticket: Codable, Identifiable, ObservableObject {
     let status: String // replace with enums
     let bookingDate: Date
     let paymentStatus: String
+    // User Provided
+    @Published var bookingDate: Date = .init(timeIntervalSinceNow: .init(86400))
+    @Published var phone: TelCom = TelCom(countryCode: .init(), number: .init())
+    @Published var email: String?
+    @Published var passengers: [Passenger] = []
+
+    @Published var extraServices: [String: String] = [:] // get a better format for this, seems very clumsy
+
+
+    // AutoFilled
+    @Published var qrData: Data? = nil
+    @Published var journeys: [Journey] = []
+    
     
     let qrData: Data
     var passengers: [Passenger] = []
     let PNR: String
+    // Generated
+    @Published var paymentStatus: PaymentStatus = .pending
+    @Published var PNR: String? = nil
+
+    var commsExist: AnyPublisher<Bool, Never> {
+        
+        Publishers.CombineLatest($email, $phone)
+            .map { email, phone in
+                return email != nil || phone.isValid
+            }
+            .eraseToAnyPublisher()
+    }
     
     var phone: TelCom?
     var email: String?
