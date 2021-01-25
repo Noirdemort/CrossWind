@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct PassengerView: View {
+    
     @Binding var passengers: [Passenger]
+    
     @StateObject private var passenger = Passenger()
     
     private func removeRows(at offsets: IndexSet){
@@ -17,6 +19,7 @@ struct PassengerView: View {
     
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
             Form {
                 
             Section(header: Text("Add Passenger")){
@@ -41,6 +44,20 @@ struct PassengerView: View {
                     }
                 }
             }
+            
+            
+            Section(header: Text("Passengers")){
+                List {
+                    ForEach(passengers, id: \.id) {
+                        Text($0.fullName)
+                    }
+                    .onDelete(perform: removeRows)
+                
+                }
+            }
+                
+            }
+        }.frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 0, idealHeight: 100, maxHeight: .infinity, alignment: .center)
     }
 }
 
