@@ -45,6 +45,16 @@ struct BookingView: View {
                     TextField("Name")
                 Section(header: Text("Travel Details")) {
                     
+                    DatePicker("Choose booking date", selection: $ticket.bookingDate, displayedComponents: .date)
+                        
+                    
+                    PhoneView(phone: $ticket.phone)
+                    
+                    TextField("Email", text: $ticket.email.bound)
+                    
+                   
+                    
+                    ExtrasView(extras: ticket.extraServices)
                 }
             }
             
