@@ -23,6 +23,9 @@ struct Passenger: Codable {
     var fullName: String {
         return "\(firstName) + \(middleName ?? .init()) + \(lastName ?? .init())"
     }
+enum PaymentStatus: String, Codable {
+    case pending
+    case completed
 }
 
 class Ticket: Codable, Identifiable, ObservableObject {
