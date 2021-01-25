@@ -8,14 +8,12 @@
 import Foundation
 
 
-enum Membership: String, RawRepresentable {
 enum Membership: String, RawRepresentable, Codable {
     case gold
     case silver
     case platinum
 }
 
-struct User: Codable, Identifiable {
 struct User: Codable, Identifiable, CustomStringConvertible {
     
     var description: String {
@@ -37,6 +35,15 @@ struct User: Codable, Identifiable, CustomStringConvertible {
     let name: String
     let email: String
     let secureHash: String
-    let membership: Membership.RawValue
+    let membership: Membership
     let phone: TelCom?
+    
+    enum CodingKeys: CodingKey {
+        case id
+        case name
+        case email
+        case secureHash
+        case membership
+        case phone
+    }
 }
