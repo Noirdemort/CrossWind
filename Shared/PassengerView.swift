@@ -10,6 +10,11 @@ import SwiftUI
 struct PassengerView: View {
     @Binding var passengers: [Passenger]
     @StateObject private var passenger = Passenger()
+    
+    private func removeRows(at offsets: IndexSet){
+        passengers.remove(atOffsets: offsets)
+    }
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             Form {
