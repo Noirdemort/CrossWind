@@ -85,12 +85,61 @@ class Ticket: Identifiable, ObservableObject, Codable {
     
     var phone: TelCom?
     var email: String?
+    // Codable
     
     var commsExist: Bool { return phone != nil || email != nil }
+    enum CodingKeys: CodingKey {
+        case id
+        case bookingDate
+        case phone
+        case email
+        case passengers
+        case extraServices
+        
+        case qrData
+        case journeys
+        
+        case paymentStatus
+        case PNR
     
     var journeys: [Journey]
+    }
+    
+    
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decode(String.self, forKey: .id)
+        bookingDate = try container.decode(Date.self, forKey: .bookingDate)
+        phone = try container.decode(TelCom.self, forKey: .phone)
+        email = try container.decode(String.self, forKey: .email)
+        passengers = try container.decode([Passenger].self, forKey: .passengers)
+        extraServices = try container.decode([String:String].self, forKey: .extraServices)
+        
+        qrData = try container.decode(Data.self, forKey: .qrData)
+        journeys = try container.decode([Journey].self, forKey: .journeys)
+        
+        paymentStatus = try container.decode(PaymentStatus.self, forKey: .paymentStatus)
+        PNR = try container.decode(String.self, forKey: .PNR)
+        
+    }
     
     var extraServices: [String: String] // get a better format for this, seems very clumsy
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        
+        try container.encode(id, forKey: .id)
+        try container.encode(bookingDate, forKey: .bookingDate)
+        try container.encode(phone, forKey: .phone)
+        try container.encode(email, forKey: .email)
+        try container.encode(passengers, forKey: .passengers)
+        try container.encode(extraServices, forKey: .extraServices)
+        
+        try container.encode(qrData, forKey: .qrData)
+        try container.encode(journeys, forKey: .journeys)
+        
+        try container.encode(paymentStatus, forKey: .paymentStatus)
+        try container.encode(PNR, forKey: .PNR)
+    }
 }
 
 
