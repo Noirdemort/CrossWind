@@ -25,5 +25,6 @@ AutoFilled:   flyingClass, flightNumber,  terminal , travelDate , checkInTime, d
 
 # TODO:
 
-Bug - Passenger list record changes in the background but doesn't update immediately
-
+- Bug - Passenger list record changes in the background but doesn't update immediately
+- Add app clip entry 
+- implement helper for simulating network calls
