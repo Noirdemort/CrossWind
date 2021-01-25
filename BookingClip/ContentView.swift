@@ -11,11 +11,11 @@ import CoreData
 struct ContentView: View {
     
     @State var deepLinkID: Int?
+    @StateObject var ticket = giveTicket()
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-            .sheet(item: deepLinkID){ (id) in
+        BookingView(ticket: ticket)
+            .sheet(item: $deepLinkID){ (id) in
                 NavigationView {
                     Text("\(deepLinkID ?? .init())")
                 }
