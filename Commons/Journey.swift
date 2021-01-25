@@ -8,7 +8,6 @@
 import Foundation
 
 
-enum FlyingClass: String, RawRepresentable {
 enum FlyingClass: String, RawRepresentable, Codable {
     case economy
     case business
@@ -16,12 +15,11 @@ enum FlyingClass: String, RawRepresentable, Codable {
 }
 
 
-struct Journey: Codable, Identifiable {
+struct Journey: Codable, Identifiable, CustomStringConvertible {
     
     var id: String = UUID().uuidString
     
     // flight details
-    let flyingClass: FlyingClass.RawValue
     let flyingClass: FlyingClass
     let flightNumber: String
 
@@ -54,4 +52,34 @@ struct Journey: Codable, Identifiable {
         case arrivalTime
         case relayVia
     }
+    
+    var description: String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .long
+        
+        return  """
+            Journey Model
+
+            id: \(id)
+            
+            flyingClass: \(flyingClass)
+            flightNumber: \(flightNumber)
+            terminal: \(terminal)
+            
+            travel date: \(dateFormatter.string(from: travelDate))
+            check-In Time: \(dateFormatter.string(from: checkInTime))
+            
+            Departure City: \(departure)
+            Departure time: \(dateFormatter.string(from: departureTime))
+
+            Destination City: \(destination)
+            Arrival time: \(dateFormatter.string(from: arrivalTime))
+
+            connecting flights: \(relayVia ?? "Direct Flight (N/A)")
+            """
+    }
+    
 }
+
+
