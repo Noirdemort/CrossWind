@@ -108,6 +108,66 @@
 		842838C725BE793400EE9314 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* BookingView.swift */; };
 		842838D225BE793500EE9314 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* BookingView.swift */; };
 		842838D325BE793600EE9314 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374325BA882200EE9314 /* BookingView.swift */; };
+		842838E925BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		842838EA25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		842838EB25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		842838EC25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		842838ED25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		842838EE25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		842838EF25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		842838F025BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		842838F125BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		842838F225BE8C7400EE9314 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842838E825BE8C7400EE9314 /* Swift+Extensions.swift */; };
+		8428390825BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428390925BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428390A25BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428390B25BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428390C25BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428390D25BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428390E25BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428390F25BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428391025BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428391125BE914100EE9314 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428390725BE914100EE9314 /* JourneyView.swift */; };
+		8428391D25BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428391E25BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428391F25BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428392025BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428392125BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428392225BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428392325BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428392425BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428392525BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428392625BE92CD00EE9314 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428391C25BE92CD00EE9314 /* PassengerView.swift */; };
+		8428393225BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428393325BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428393425BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428393525BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428393625BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428393725BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428393825BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428393925BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428393A25BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428393B25BE93A200EE9314 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428393125BE93A200EE9314 /* Passenger.swift */; };
+		8428394725BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428394825BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428394925BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428394A25BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428394B25BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428394C25BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428394D25BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428394E25BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428394F25BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428395025BE962B00EE9314 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428394625BE962B00EE9314 /* PhoneView.swift */; };
+		8428395C25BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		8428395D25BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		8428395E25BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		8428395F25BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		8428396025BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		8428396125BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		8428396225BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		8428396325BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		8428396425BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		8428396525BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +297,12 @@
 		8428383A25BAD92300EE9314 /* CheckInClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckInClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8428383E25BAD92300EE9314 /* CheckInClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInClipUITests.swift; sourceTree = "<group>"; };
 		8428384025BAD92300EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842838E825BE8C7400EE9314 /* Swift+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Extensions.swift"; sourceTree = "<group>"; };
+		8428390725BE914100EE9314 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
+		8428391C25BE92CD00EE9314 /* PassengerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerView.swift; sourceTree = "<group>"; };
+		8428393125BE93A200EE9314 /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		8428394625BE962B00EE9314 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		8428395B25BEA4B200EE9314 /* ExtrasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,9 +405,14 @@
 			children = (
 				8428374225BA882200EE9314 /* CrossWindApp.swift */,
 				8428374325BA882200EE9314 /* BookingView.swift */,
+				8428395B25BEA4B200EE9314 /* ExtrasView.swift */,
+				8428394625BE962B00EE9314 /* PhoneView.swift */,
+				8428391C25BE92CD00EE9314 /* PassengerView.swift */,
+				8428390725BE914100EE9314 /* JourneyView.swift */,
 				8428374425BA882200EE9314 /* Persistence.swift */,
 				8428374525BA882300EE9314 /* Assets.xcassets */,
 				8428374025BA882200EE9314 /* CrossWind.xcdatamodeld */,
+				842838E825BE8C7400EE9314 /* Swift+Extensions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -402,6 +473,7 @@
 			isa = PBXGroup;
 			children = (
 				8428378925BA89EE00EE9314 /* Ticket.swift */,
+				8428393125BE93A200EE9314 /* Passenger.swift */,
 				842837C725BAAB4700EE9314 /* Journey.swift */,
 				8428379625BA8AF400EE9314 /* User.swift */,
 				8428379F25BA8B9500EE9314 /* BoardingPass.swift */,
@@ -840,8 +912,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428376E25BA882300EE9314 /* CrossWindApp.swift in Sources */,
+				842838E925BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
+				8428393225BE93A200EE9314 /* Passenger.swift in Sources */,
 				842837D125BAABEA00EE9314 /* AirportCity.swift in Sources */,
+				8428390825BE914100EE9314 /* JourneyView.swift in Sources */,
 				8428377225BA882300EE9314 /* Persistence.swift in Sources */,
+				8428395C25BEA4B200EE9314 /* ExtrasView.swift in Sources */,
 				8428379725BA8AF400EE9314 /* User.swift in Sources */,
 				8428378A25BA89EE00EE9314 /* Ticket.swift in Sources */,
 				842837C825BAAB4700EE9314 /* Journey.swift in Sources */,
@@ -850,6 +926,8 @@
 				842837A025BA8B9500EE9314 /* BoardingPass.swift in Sources */,
 				842837AA25BA8BD900EE9314 /* Networks.swift in Sources */,
 				8428377025BA882300EE9314 /* BookingView.swift in Sources */,
+				8428391D25BE92CD00EE9314 /* PassengerView.swift in Sources */,
+				8428394725BE962B00EE9314 /* PhoneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,8 +936,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428376F25BA882300EE9314 /* CrossWindApp.swift in Sources */,
+				842838EA25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
+				8428393325BE93A200EE9314 /* Passenger.swift in Sources */,
 				842837D225BAABEA00EE9314 /* AirportCity.swift in Sources */,
+				8428390925BE914100EE9314 /* JourneyView.swift in Sources */,
 				8428377325BA882300EE9314 /* Persistence.swift in Sources */,
+				8428395D25BEA4B200EE9314 /* ExtrasView.swift in Sources */,
 				8428379825BA8AF400EE9314 /* User.swift in Sources */,
 				8428378B25BA89EE00EE9314 /* Ticket.swift in Sources */,
 				842837C925BAAB4700EE9314 /* Journey.swift in Sources */,
@@ -868,6 +950,8 @@
 				842837A125BA8B9500EE9314 /* BoardingPass.swift in Sources */,
 				842837AB25BA8BD900EE9314 /* Networks.swift in Sources */,
 				8428377125BA882300EE9314 /* BookingView.swift in Sources */,
+				8428391E25BE92CD00EE9314 /* PassengerView.swift in Sources */,
+				8428394825BE962B00EE9314 /* PhoneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -876,11 +960,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				842837CA25BAAB4700EE9314 /* Journey.swift in Sources */,
+				8428395E25BEA4B200EE9314 /* ExtrasView.swift in Sources */,
+				842838EB25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
+				8428393425BE93A200EE9314 /* Passenger.swift in Sources */,
 				8428375F25BA882300EE9314 /* Tests_iOS.swift in Sources */,
 				842837A225BA8B9500EE9314 /* BoardingPass.swift in Sources */,
+				8428391F25BE92CD00EE9314 /* PassengerView.swift in Sources */,
 				842837AC25BA8BD900EE9314 /* Networks.swift in Sources */,
+				8428394925BE962B00EE9314 /* PhoneView.swift in Sources */,
 				8428378C25BA89EE00EE9314 /* Ticket.swift in Sources */,
 				8428379925BA8AF400EE9314 /* User.swift in Sources */,
+				8428390A25BE914100EE9314 /* JourneyView.swift in Sources */,
 				842837D325BAABEA00EE9314 /* AirportCity.swift in Sources */,
 				842837B925BA8E9700EE9314 /* TelCom.swift in Sources */,
 			);
@@ -891,11 +981,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				842837CB25BAAB4700EE9314 /* Journey.swift in Sources */,
+				8428395F25BEA4B200EE9314 /* ExtrasView.swift in Sources */,
+				842838EC25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
+				8428393525BE93A200EE9314 /* Passenger.swift in Sources */,
 				8428376A25BA882300EE9314 /* Tests_macOS.swift in Sources */,
 				842837A325BA8B9500EE9314 /* BoardingPass.swift in Sources */,
+				8428392025BE92CD00EE9314 /* PassengerView.swift in Sources */,
 				842837AD25BA8BD900EE9314 /* Networks.swift in Sources */,
+				8428394A25BE962B00EE9314 /* PhoneView.swift in Sources */,
 				8428378D25BA89EE00EE9314 /* Ticket.swift in Sources */,
 				8428379A25BA8AF400EE9314 /* User.swift in Sources */,
+				8428390B25BE914100EE9314 /* JourneyView.swift in Sources */,
 				842837D425BAABEA00EE9314 /* AirportCity.swift in Sources */,
 				842837BA25BA8E9700EE9314 /* TelCom.swift in Sources */,
 			);
@@ -906,15 +1002,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				842837EA25BAD78700EE9314 /* Persistence.swift in Sources */,
+				8428392125BE92CD00EE9314 /* PassengerView.swift in Sources */,
+				8428393625BE93A200EE9314 /* Passenger.swift in Sources */,
+				842838ED25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
 				842837ED25BAD78700EE9314 /* BookingClip.xcdatamodeld in Sources */,
 				842838C725BE793400EE9314 /* BookingView.swift in Sources */,
 				8428386225BADB4D00EE9314 /* BoardingPass.swift in Sources */,
+				8428394B25BE962B00EE9314 /* PhoneView.swift in Sources */,
+				8428390C25BE914100EE9314 /* JourneyView.swift in Sources */,
 				842837E325BAD78600EE9314 /* ContentView.swift in Sources */,
 				8428386425BADB4D00EE9314 /* Journey.swift in Sources */,
 				8428386525BADB4D00EE9314 /* TelCom.swift in Sources */,
 				8428386325BADB4D00EE9314 /* Networks.swift in Sources */,
 				8428386625BADB4D00EE9314 /* Ticket.swift in Sources */,
 				8428386125BADB4D00EE9314 /* AirportCity.swift in Sources */,
+				8428396025BEA4B200EE9314 /* ExtrasView.swift in Sources */,
 				842837E125BAD78500EE9314 /* BookingClipApp.swift in Sources */,
 				8428386725BADB4D00EE9314 /* User.swift in Sources */,
 			);
@@ -925,14 +1027,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428387225BADB4D00EE9314 /* AirportCity.swift in Sources */,
+				8428392225BE92CD00EE9314 /* PassengerView.swift in Sources */,
 				842837F925BAD78700EE9314 /* BookingClipTests.swift in Sources */,
+				8428394C25BE962B00EE9314 /* PhoneView.swift in Sources */,
 				8428387425BADB4D00EE9314 /* Networks.swift in Sources */,
 				8428387325BADB4D00EE9314 /* BoardingPass.swift in Sources */,
+				8428390D25BE914100EE9314 /* JourneyView.swift in Sources */,
 				8428387825BADB4D00EE9314 /* User.swift in Sources */,
 				842838D225BE793500EE9314 /* BookingView.swift in Sources */,
 				8428387525BADB4D00EE9314 /* Journey.swift in Sources */,
+				842838EE25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
 				8428387725BADB4D00EE9314 /* Ticket.swift in Sources */,
+				8428396125BEA4B200EE9314 /* ExtrasView.swift in Sources */,
 				8428387625BADB4D00EE9314 /* TelCom.swift in Sources */,
+				8428393725BE93A200EE9314 /* Passenger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,14 +1049,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428388325BADB4E00EE9314 /* AirportCity.swift in Sources */,
+				8428392325BE92CD00EE9314 /* PassengerView.swift in Sources */,
 				8428380425BAD78700EE9314 /* BookingClipUITests.swift in Sources */,
+				8428394D25BE962B00EE9314 /* PhoneView.swift in Sources */,
 				8428388525BADB4E00EE9314 /* Networks.swift in Sources */,
 				8428388425BADB4E00EE9314 /* BoardingPass.swift in Sources */,
+				8428390E25BE914100EE9314 /* JourneyView.swift in Sources */,
 				8428388925BADB4E00EE9314 /* User.swift in Sources */,
 				842838D325BE793600EE9314 /* BookingView.swift in Sources */,
 				8428388625BADB4E00EE9314 /* Journey.swift in Sources */,
+				842838EF25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
 				8428388825BADB4E00EE9314 /* Ticket.swift in Sources */,
+				8428396225BEA4B200EE9314 /* ExtrasView.swift in Sources */,
 				8428388725BADB4E00EE9314 /* TelCom.swift in Sources */,
+				8428393825BE93A200EE9314 /* Passenger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -957,14 +1071,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428389725BADB4F00EE9314 /* Journey.swift in Sources */,
+				8428392425BE92CD00EE9314 /* PassengerView.swift in Sources */,
 				8428382325BAD92200EE9314 /* ContentView.swift in Sources */,
+				8428394E25BE962B00EE9314 /* PhoneView.swift in Sources */,
 				8428389425BADB4F00EE9314 /* AirportCity.swift in Sources */,
 				8428389925BADB4F00EE9314 /* Ticket.swift in Sources */,
+				8428390F25BE914100EE9314 /* JourneyView.swift in Sources */,
 				8428389625BADB4F00EE9314 /* Networks.swift in Sources */,
 				8428389A25BADB4F00EE9314 /* User.swift in Sources */,
 				8428389525BADB4F00EE9314 /* BoardingPass.swift in Sources */,
+				842838F025BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
 				8428389825BADB4F00EE9314 /* TelCom.swift in Sources */,
+				8428396325BEA4B200EE9314 /* ExtrasView.swift in Sources */,
 				8428382125BAD92200EE9314 /* CheckInClipApp.swift in Sources */,
+				8428393925BE93A200EE9314 /* Passenger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -973,11 +1093,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				842838A525BADB4F00EE9314 /* AirportCity.swift in Sources */,
+				8428396425BEA4B200EE9314 /* ExtrasView.swift in Sources */,
+				842838F125BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
+				8428393A25BE93A200EE9314 /* Passenger.swift in Sources */,
 				8428383425BAD92300EE9314 /* CheckInClipTests.swift in Sources */,
 				842838A725BADB4F00EE9314 /* Networks.swift in Sources */,
+				8428392525BE92CD00EE9314 /* PassengerView.swift in Sources */,
 				842838A625BADB4F00EE9314 /* BoardingPass.swift in Sources */,
+				8428394F25BE962B00EE9314 /* PhoneView.swift in Sources */,
 				842838AB25BADB4F00EE9314 /* User.swift in Sources */,
 				842838A825BADB4F00EE9314 /* Journey.swift in Sources */,
+				8428391025BE914100EE9314 /* JourneyView.swift in Sources */,
 				842838AA25BADB4F00EE9314 /* Ticket.swift in Sources */,
 				842838A925BADB4F00EE9314 /* TelCom.swift in Sources */,
 			);
@@ -988,11 +1114,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				842838B625BADB5000EE9314 /* AirportCity.swift in Sources */,
+				8428396525BEA4B200EE9314 /* ExtrasView.swift in Sources */,
+				842838F225BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
+				8428393B25BE93A200EE9314 /* Passenger.swift in Sources */,
 				8428383F25BAD92300EE9314 /* CheckInClipUITests.swift in Sources */,
 				842838B825BADB5000EE9314 /* Networks.swift in Sources */,
+				8428392625BE92CD00EE9314 /* PassengerView.swift in Sources */,
 				842838B725BADB5000EE9314 /* BoardingPass.swift in Sources */,
+				8428395025BE962B00EE9314 /* PhoneView.swift in Sources */,
 				842838BC25BADB5000EE9314 /* User.swift in Sources */,
 				842838B925BADB5000EE9314 /* Journey.swift in Sources */,
+				8428391125BE914100EE9314 /* JourneyView.swift in Sources */,
 				842838BB25BADB5000EE9314 /* Ticket.swift in Sources */,
 				842838BA25BADB5000EE9314 /* TelCom.swift in Sources */,
 			);
