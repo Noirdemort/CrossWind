@@ -18,7 +18,6 @@ struct PassengerView: View {
     }
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         VStack {
             Form {
                 
@@ -62,7 +61,8 @@ struct PassengerView: View {
 }
 
 struct PassengerView_Previews: PreviewProvider {
+    @State static var pax: [Passenger] = [Passenger(salutation: .Mr, firstName: "John", lastName: "Appleseed"), Passenger(salutation: .Mr, firstName: "Tim", lastName: "Cook")]
     static var previews: some View {
-        PassengerView()
+        PassengerView(passengers: $pax)
     }
 }
