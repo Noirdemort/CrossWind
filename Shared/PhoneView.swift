@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PhoneView: View {
+    @Binding var phone: TelCom
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
