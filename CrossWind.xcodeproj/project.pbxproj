@@ -19,6 +19,92 @@
 		8428377325BA882300EE9314 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428374425BA882200EE9314 /* Persistence.swift */; };
 		8428377425BA882300EE9314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428374525BA882300EE9314 /* Assets.xcassets */; };
 		8428377525BA882300EE9314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428374525BA882300EE9314 /* Assets.xcassets */; };
+		8428378A25BA89EE00EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		8428378B25BA89EE00EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		8428378C25BA89EE00EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		8428378D25BA89EE00EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		8428379725BA8AF400EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		8428379825BA8AF400EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		8428379925BA8AF400EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		8428379A25BA8AF400EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		842837A025BA8B9500EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		842837A125BA8B9500EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		842837A225BA8B9500EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		842837A325BA8B9500EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		842837AA25BA8BD900EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		842837AB25BA8BD900EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		842837AC25BA8BD900EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		842837AD25BA8BD900EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		842837B725BA8E9700EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		842837B825BA8E9700EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		842837B925BA8E9700EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		842837BA25BA8E9700EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		842837C825BAAB4700EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		842837C925BAAB4700EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		842837CA25BAAB4700EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		842837CB25BAAB4700EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		842837D125BAABEA00EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		842837D225BAABEA00EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		842837D325BAABEA00EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		842837D425BAABEA00EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		842837E125BAD78500EE9314 /* BookingClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837E025BAD78500EE9314 /* BookingClipApp.swift */; };
+		842837E325BAD78600EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837E225BAD78600EE9314 /* ContentView.swift */; };
+		842837E525BAD78700EE9314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842837E425BAD78700EE9314 /* Assets.xcassets */; };
+		842837E825BAD78700EE9314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842837E725BAD78700EE9314 /* Preview Assets.xcassets */; };
+		842837EA25BAD78700EE9314 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837E925BAD78700EE9314 /* Persistence.swift */; };
+		842837ED25BAD78700EE9314 /* BookingClip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 842837EB25BAD78700EE9314 /* BookingClip.xcdatamodeld */; };
+		842837F925BAD78700EE9314 /* BookingClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837F825BAD78700EE9314 /* BookingClipTests.swift */; };
+		8428380425BAD78700EE9314 /* BookingClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428380325BAD78700EE9314 /* BookingClipUITests.swift */; };
+		8428380825BAD78700EE9314 /* BookingClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 842837DE25BAD78500EE9314 /* BookingClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8428382125BAD92200EE9314 /* CheckInClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428382025BAD92200EE9314 /* CheckInClipApp.swift */; };
+		8428382325BAD92200EE9314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428382225BAD92200EE9314 /* ContentView.swift */; };
+		8428382525BAD92300EE9314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428382425BAD92300EE9314 /* Assets.xcassets */; };
+		8428382825BAD92300EE9314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428382725BAD92300EE9314 /* Preview Assets.xcassets */; };
+		8428383425BAD92300EE9314 /* CheckInClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428383325BAD92300EE9314 /* CheckInClipTests.swift */; };
+		8428383F25BAD92300EE9314 /* CheckInClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428383E25BAD92300EE9314 /* CheckInClipUITests.swift */; };
+		8428384325BAD92300EE9314 /* CheckInClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 8428381E25BAD92200EE9314 /* CheckInClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8428386125BADB4D00EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		8428386225BADB4D00EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		8428386325BADB4D00EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		8428386425BADB4D00EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		8428386525BADB4D00EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		8428386625BADB4D00EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		8428386725BADB4D00EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		8428387225BADB4D00EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		8428387325BADB4D00EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		8428387425BADB4D00EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		8428387525BADB4D00EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		8428387625BADB4D00EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		8428387725BADB4D00EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		8428387825BADB4D00EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		8428388325BADB4E00EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		8428388425BADB4E00EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		8428388525BADB4E00EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		8428388625BADB4E00EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		8428388725BADB4E00EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		8428388825BADB4E00EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		8428388925BADB4E00EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		8428389425BADB4F00EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		8428389525BADB4F00EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		8428389625BADB4F00EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		8428389725BADB4F00EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		8428389825BADB4F00EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		8428389925BADB4F00EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		8428389A25BADB4F00EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		842838A525BADB4F00EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		842838A625BADB4F00EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		842838A725BADB4F00EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		842838A825BADB4F00EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		842838A925BADB4F00EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		842838AA25BADB4F00EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		842838AB25BADB4F00EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
+		842838B625BADB5000EE9314 /* AirportCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837D025BAABEA00EE9314 /* AirportCity.swift */; };
+		842838B725BADB5000EE9314 /* BoardingPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379F25BA8B9500EE9314 /* BoardingPass.swift */; };
+		842838B825BADB5000EE9314 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837A925BA8BD900EE9314 /* Networks.swift */; };
+		842838B925BADB5000EE9314 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837C725BAAB4700EE9314 /* Journey.swift */; };
+		842838BA25BADB5000EE9314 /* TelCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842837B625BA8E9700EE9314 /* TelCom.swift */; };
+		842838BB25BADB5000EE9314 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428378925BA89EE00EE9314 /* Ticket.swift */; };
+		842838BC25BADB5000EE9314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428379625BA8AF400EE9314 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +122,64 @@
 			remoteGlobalIDString = 8428375125BA882300EE9314;
 			remoteInfo = "CrossWind (macOS)";
 		};
+		842837F525BAD78700EE9314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8428373B25BA882200EE9314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842837DD25BAD78500EE9314;
+			remoteInfo = BookingClip;
+		};
+		8428380025BAD78700EE9314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8428373B25BA882200EE9314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842837DD25BAD78500EE9314;
+			remoteInfo = BookingClip;
+		};
+		8428380625BAD78700EE9314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8428373B25BA882200EE9314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842837DD25BAD78500EE9314;
+			remoteInfo = BookingClip;
+		};
+		8428383025BAD92300EE9314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8428373B25BA882200EE9314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8428381D25BAD92200EE9314;
+			remoteInfo = CheckInClip;
+		};
+		8428383B25BAD92300EE9314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8428373B25BA882200EE9314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8428381D25BAD92200EE9314;
+			remoteInfo = CheckInClip;
+		};
+		8428384125BAD92300EE9314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8428373B25BA882200EE9314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8428381D25BAD92200EE9314;
+			remoteInfo = CheckInClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8428380C25BAD78700EE9314 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				8428380825BAD78700EE9314 /* BookingClip.app in Embed App Clips */,
+				8428384325BAD92300EE9314 /* CheckInClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8428374125BA882200EE9314 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -55,6 +198,42 @@
 		8428376525BA882300EE9314 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8428376925BA882300EE9314 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8428376B25BA882300EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8428378925BA89EE00EE9314 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		8428379625BA8AF400EE9314 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8428379F25BA8B9500EE9314 /* BoardingPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPass.swift; sourceTree = "<group>"; };
+		842837A925BA8BD900EE9314 /* Networks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networks.swift; sourceTree = "<group>"; };
+		842837B625BA8E9700EE9314 /* TelCom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelCom.swift; sourceTree = "<group>"; };
+		842837C725BAAB4700EE9314 /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey.swift; sourceTree = "<group>"; };
+		842837D025BAABEA00EE9314 /* AirportCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCity.swift; sourceTree = "<group>"; };
+		842837D925BAC5F300EE9314 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		842837DE25BAD78500EE9314 /* BookingClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842837E025BAD78500EE9314 /* BookingClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingClipApp.swift; sourceTree = "<group>"; };
+		842837E225BAD78600EE9314 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		842837E425BAD78700EE9314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842837E725BAD78700EE9314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		842837E925BAD78700EE9314 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		842837EC25BAD78700EE9314 /* BookingClip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookingClip.xcdatamodel; sourceTree = "<group>"; };
+		842837EE25BAD78700EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842837EF25BAD78700EE9314 /* BookingClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BookingClip.entitlements; sourceTree = "<group>"; };
+		842837F425BAD78700EE9314 /* BookingClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842837F825BAD78700EE9314 /* BookingClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingClipTests.swift; sourceTree = "<group>"; };
+		842837FA25BAD78700EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842837FF25BAD78700EE9314 /* BookingClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8428380325BAD78700EE9314 /* BookingClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingClipUITests.swift; sourceTree = "<group>"; };
+		8428380525BAD78700EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8428381E25BAD92200EE9314 /* CheckInClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckInClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8428382025BAD92200EE9314 /* CheckInClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInClipApp.swift; sourceTree = "<group>"; };
+		8428382225BAD92200EE9314 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8428382425BAD92300EE9314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8428382725BAD92300EE9314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8428382925BAD92300EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8428382A25BAD92300EE9314 /* CheckInClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CheckInClip.entitlements; sourceTree = "<group>"; };
+		8428382F25BAD92300EE9314 /* CheckInClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckInClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8428383325BAD92300EE9314 /* CheckInClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInClipTests.swift; sourceTree = "<group>"; };
+		8428383525BAD92300EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8428383A25BAD92300EE9314 /* CheckInClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckInClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8428383E25BAD92300EE9314 /* CheckInClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInClipUITests.swift; sourceTree = "<group>"; };
+		8428384025BAD92300EE9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,17 +265,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		842837DB25BAD78500EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842837F125BAD78700EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842837FC25BAD78700EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428381B25BAD92200EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428382C25BAD92300EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428383725BAD92300EE9314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8428373A25BA882200EE9314 = {
 			isa = PBXGroup;
 			children = (
+				842837D925BAC5F300EE9314 /* README.md */,
+				842837A825BA8BC100EE9314 /* Helpers */,
+				8428378825BA89C300EE9314 /* Commons */,
 				8428373F25BA882200EE9314 /* Shared */,
 				8428374C25BA882300EE9314 /* iOS */,
 				8428375325BA882300EE9314 /* macOS */,
 				8428375D25BA882300EE9314 /* Tests iOS */,
 				8428376825BA882300EE9314 /* Tests macOS */,
+				842837DF25BAD78500EE9314 /* BookingClip */,
+				842837F725BAD78700EE9314 /* BookingClipTests */,
+				8428380225BAD78700EE9314 /* BookingClipUITests */,
+				8428381F25BAD92200EE9314 /* CheckInClip */,
+				8428383225BAD92300EE9314 /* CheckInClipTests */,
+				8428383D25BAD92300EE9314 /* CheckInClipUITests */,
 				8428374B25BA882300EE9314 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,6 +350,12 @@
 				8428375225BA882300EE9314 /* CrossWind.app */,
 				8428375A25BA882300EE9314 /* Tests iOS.xctest */,
 				8428376525BA882300EE9314 /* Tests macOS.xctest */,
+				842837DE25BAD78500EE9314 /* BookingClip.app */,
+				842837F425BAD78700EE9314 /* BookingClipTests.xctest */,
+				842837FF25BAD78700EE9314 /* BookingClipUITests.xctest */,
+				8428381E25BAD92200EE9314 /* CheckInClip.app */,
+				8428382F25BAD92300EE9314 /* CheckInClipTests.xctest */,
+				8428383A25BAD92300EE9314 /* CheckInClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +395,107 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		8428378825BA89C300EE9314 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				8428378925BA89EE00EE9314 /* Ticket.swift */,
+				842837C725BAAB4700EE9314 /* Journey.swift */,
+				8428379625BA8AF400EE9314 /* User.swift */,
+				8428379F25BA8B9500EE9314 /* BoardingPass.swift */,
+				842837D025BAABEA00EE9314 /* AirportCity.swift */,
+				842837B625BA8E9700EE9314 /* TelCom.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		842837A825BA8BC100EE9314 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				842837A925BA8BD900EE9314 /* Networks.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		842837DF25BAD78500EE9314 /* BookingClip */ = {
+			isa = PBXGroup;
+			children = (
+				842837E025BAD78500EE9314 /* BookingClipApp.swift */,
+				842837E225BAD78600EE9314 /* ContentView.swift */,
+				842837E425BAD78700EE9314 /* Assets.xcassets */,
+				842837E925BAD78700EE9314 /* Persistence.swift */,
+				842837EE25BAD78700EE9314 /* Info.plist */,
+				842837EF25BAD78700EE9314 /* BookingClip.entitlements */,
+				842837EB25BAD78700EE9314 /* BookingClip.xcdatamodeld */,
+				842837E625BAD78700EE9314 /* Preview Content */,
+			);
+			path = BookingClip;
+			sourceTree = "<group>";
+		};
+		842837E625BAD78700EE9314 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				842837E725BAD78700EE9314 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		842837F725BAD78700EE9314 /* BookingClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				842837F825BAD78700EE9314 /* BookingClipTests.swift */,
+				842837FA25BAD78700EE9314 /* Info.plist */,
+			);
+			path = BookingClipTests;
+			sourceTree = "<group>";
+		};
+		8428380225BAD78700EE9314 /* BookingClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8428380325BAD78700EE9314 /* BookingClipUITests.swift */,
+				8428380525BAD78700EE9314 /* Info.plist */,
+			);
+			path = BookingClipUITests;
+			sourceTree = "<group>";
+		};
+		8428381F25BAD92200EE9314 /* CheckInClip */ = {
+			isa = PBXGroup;
+			children = (
+				8428382025BAD92200EE9314 /* CheckInClipApp.swift */,
+				8428382225BAD92200EE9314 /* ContentView.swift */,
+				8428382425BAD92300EE9314 /* Assets.xcassets */,
+				8428382925BAD92300EE9314 /* Info.plist */,
+				8428382A25BAD92300EE9314 /* CheckInClip.entitlements */,
+				8428382625BAD92300EE9314 /* Preview Content */,
+			);
+			path = CheckInClip;
+			sourceTree = "<group>";
+		};
+		8428382625BAD92300EE9314 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8428382725BAD92300EE9314 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8428383225BAD92300EE9314 /* CheckInClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				8428383325BAD92300EE9314 /* CheckInClipTests.swift */,
+				8428383525BAD92300EE9314 /* Info.plist */,
+			);
+			path = CheckInClipTests;
+			sourceTree = "<group>";
+		};
+		8428383D25BAD92300EE9314 /* CheckInClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8428383E25BAD92300EE9314 /* CheckInClipUITests.swift */,
+				8428384025BAD92300EE9314 /* Info.plist */,
+			);
+			path = CheckInClipUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,10 +506,13 @@
 				8428374625BA882300EE9314 /* Sources */,
 				8428374725BA882300EE9314 /* Frameworks */,
 				8428374825BA882300EE9314 /* Resources */,
+				8428380C25BAD78700EE9314 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8428380725BAD78700EE9314 /* PBXTargetDependency */,
+				8428384225BAD92300EE9314 /* PBXTargetDependency */,
 			);
 			name = "CrossWind (iOS)";
 			productName = "CrossWind (iOS)";
@@ -232,6 +572,112 @@
 			productReference = 8428376525BA882300EE9314 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		842837DD25BAD78500EE9314 /* BookingClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428380925BAD78700EE9314 /* Build configuration list for PBXNativeTarget "BookingClip" */;
+			buildPhases = (
+				842837DA25BAD78500EE9314 /* Sources */,
+				842837DB25BAD78500EE9314 /* Frameworks */,
+				842837DC25BAD78500EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookingClip;
+			productName = BookingClip;
+			productReference = 842837DE25BAD78500EE9314 /* BookingClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		842837F325BAD78700EE9314 /* BookingClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428380D25BAD78700EE9314 /* Build configuration list for PBXNativeTarget "BookingClipTests" */;
+			buildPhases = (
+				842837F025BAD78700EE9314 /* Sources */,
+				842837F125BAD78700EE9314 /* Frameworks */,
+				842837F225BAD78700EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842837F625BAD78700EE9314 /* PBXTargetDependency */,
+			);
+			name = BookingClipTests;
+			productName = BookingClipTests;
+			productReference = 842837F425BAD78700EE9314 /* BookingClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		842837FE25BAD78700EE9314 /* BookingClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428381025BAD78700EE9314 /* Build configuration list for PBXNativeTarget "BookingClipUITests" */;
+			buildPhases = (
+				842837FB25BAD78700EE9314 /* Sources */,
+				842837FC25BAD78700EE9314 /* Frameworks */,
+				842837FD25BAD78700EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8428380125BAD78700EE9314 /* PBXTargetDependency */,
+			);
+			name = BookingClipUITests;
+			productName = BookingClipUITests;
+			productReference = 842837FF25BAD78700EE9314 /* BookingClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8428381D25BAD92200EE9314 /* CheckInClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428384425BAD92300EE9314 /* Build configuration list for PBXNativeTarget "CheckInClip" */;
+			buildPhases = (
+				8428381A25BAD92200EE9314 /* Sources */,
+				8428381B25BAD92200EE9314 /* Frameworks */,
+				8428381C25BAD92200EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckInClip;
+			productName = CheckInClip;
+			productReference = 8428381E25BAD92200EE9314 /* CheckInClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		8428382E25BAD92300EE9314 /* CheckInClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428384725BAD92300EE9314 /* Build configuration list for PBXNativeTarget "CheckInClipTests" */;
+			buildPhases = (
+				8428382B25BAD92300EE9314 /* Sources */,
+				8428382C25BAD92300EE9314 /* Frameworks */,
+				8428382D25BAD92300EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8428383125BAD92300EE9314 /* PBXTargetDependency */,
+			);
+			name = CheckInClipTests;
+			productName = CheckInClipTests;
+			productReference = 8428382F25BAD92300EE9314 /* CheckInClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8428383925BAD92300EE9314 /* CheckInClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428384A25BAD92300EE9314 /* Build configuration list for PBXNativeTarget "CheckInClipUITests" */;
+			buildPhases = (
+				8428383625BAD92300EE9314 /* Sources */,
+				8428383725BAD92300EE9314 /* Frameworks */,
+				8428383825BAD92300EE9314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8428383C25BAD92300EE9314 /* PBXTargetDependency */,
+			);
+			name = CheckInClipUITests;
+			productName = CheckInClipUITests;
+			productReference = 8428383A25BAD92300EE9314 /* CheckInClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -255,6 +701,28 @@
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = 8428375125BA882300EE9314;
 					};
+					842837DD25BAD78500EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					842837F325BAD78700EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 842837DD25BAD78500EE9314;
+					};
+					842837FE25BAD78700EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 842837DD25BAD78500EE9314;
+					};
+					8428381D25BAD92200EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					8428382E25BAD92300EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8428381D25BAD92200EE9314;
+					};
+					8428383925BAD92300EE9314 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8428381D25BAD92200EE9314;
+					};
 				};
 			};
 			buildConfigurationList = 8428373E25BA882200EE9314 /* Build configuration list for PBXProject "CrossWind" */;
@@ -274,6 +742,12 @@
 				8428375125BA882300EE9314 /* CrossWind (macOS) */,
 				8428375925BA882300EE9314 /* Tests iOS */,
 				8428376425BA882300EE9314 /* Tests macOS */,
+				842837DD25BAD78500EE9314 /* BookingClip */,
+				842837F325BAD78700EE9314 /* BookingClipTests */,
+				842837FE25BAD78700EE9314 /* BookingClipUITests */,
+				8428381D25BAD92200EE9314 /* CheckInClip */,
+				8428382E25BAD92300EE9314 /* CheckInClipTests */,
+				8428383925BAD92300EE9314 /* CheckInClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,6 +783,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		842837DC25BAD78500EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842837E825BAD78700EE9314 /* Preview Assets.xcassets in Resources */,
+				842837E525BAD78700EE9314 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842837F225BAD78700EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842837FD25BAD78700EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428381C25BAD92200EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428382825BAD92300EE9314 /* Preview Assets.xcassets in Resources */,
+				8428382525BAD92300EE9314 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428382D25BAD92300EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428383825BAD92300EE9314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -317,8 +837,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428376E25BA882300EE9314 /* CrossWindApp.swift in Sources */,
+				842837D125BAABEA00EE9314 /* AirportCity.swift in Sources */,
 				8428377225BA882300EE9314 /* Persistence.swift in Sources */,
+				8428379725BA8AF400EE9314 /* User.swift in Sources */,
+				8428378A25BA89EE00EE9314 /* Ticket.swift in Sources */,
+				842837C825BAAB4700EE9314 /* Journey.swift in Sources */,
 				8428376C25BA882300EE9314 /* CrossWind.xcdatamodeld in Sources */,
+				842837B725BA8E9700EE9314 /* TelCom.swift in Sources */,
+				842837A025BA8B9500EE9314 /* BoardingPass.swift in Sources */,
+				842837AA25BA8BD900EE9314 /* Networks.swift in Sources */,
 				8428377025BA882300EE9314 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,8 +855,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428376F25BA882300EE9314 /* CrossWindApp.swift in Sources */,
+				842837D225BAABEA00EE9314 /* AirportCity.swift in Sources */,
 				8428377325BA882300EE9314 /* Persistence.swift in Sources */,
+				8428379825BA8AF400EE9314 /* User.swift in Sources */,
+				8428378B25BA89EE00EE9314 /* Ticket.swift in Sources */,
+				842837C925BAAB4700EE9314 /* Journey.swift in Sources */,
 				8428376D25BA882300EE9314 /* CrossWind.xcdatamodeld in Sources */,
+				842837B825BA8E9700EE9314 /* TelCom.swift in Sources */,
+				842837A125BA8B9500EE9314 /* BoardingPass.swift in Sources */,
+				842837AB25BA8BD900EE9314 /* Networks.swift in Sources */,
 				8428377125BA882300EE9314 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,7 +872,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842837CA25BAAB4700EE9314 /* Journey.swift in Sources */,
 				8428375F25BA882300EE9314 /* Tests_iOS.swift in Sources */,
+				842837A225BA8B9500EE9314 /* BoardingPass.swift in Sources */,
+				842837AC25BA8BD900EE9314 /* Networks.swift in Sources */,
+				8428378C25BA89EE00EE9314 /* Ticket.swift in Sources */,
+				8428379925BA8AF400EE9314 /* User.swift in Sources */,
+				842837D325BAABEA00EE9314 /* AirportCity.swift in Sources */,
+				842837B925BA8E9700EE9314 /* TelCom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +887,108 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842837CB25BAAB4700EE9314 /* Journey.swift in Sources */,
 				8428376A25BA882300EE9314 /* Tests_macOS.swift in Sources */,
+				842837A325BA8B9500EE9314 /* BoardingPass.swift in Sources */,
+				842837AD25BA8BD900EE9314 /* Networks.swift in Sources */,
+				8428378D25BA89EE00EE9314 /* Ticket.swift in Sources */,
+				8428379A25BA8AF400EE9314 /* User.swift in Sources */,
+				842837D425BAABEA00EE9314 /* AirportCity.swift in Sources */,
+				842837BA25BA8E9700EE9314 /* TelCom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842837DA25BAD78500EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842837EA25BAD78700EE9314 /* Persistence.swift in Sources */,
+				842837ED25BAD78700EE9314 /* BookingClip.xcdatamodeld in Sources */,
+				8428386225BADB4D00EE9314 /* BoardingPass.swift in Sources */,
+				842837E325BAD78600EE9314 /* ContentView.swift in Sources */,
+				8428386425BADB4D00EE9314 /* Journey.swift in Sources */,
+				8428386525BADB4D00EE9314 /* TelCom.swift in Sources */,
+				8428386325BADB4D00EE9314 /* Networks.swift in Sources */,
+				8428386625BADB4D00EE9314 /* Ticket.swift in Sources */,
+				8428386125BADB4D00EE9314 /* AirportCity.swift in Sources */,
+				842837E125BAD78500EE9314 /* BookingClipApp.swift in Sources */,
+				8428386725BADB4D00EE9314 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842837F025BAD78700EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428387225BADB4D00EE9314 /* AirportCity.swift in Sources */,
+				842837F925BAD78700EE9314 /* BookingClipTests.swift in Sources */,
+				8428387425BADB4D00EE9314 /* Networks.swift in Sources */,
+				8428387325BADB4D00EE9314 /* BoardingPass.swift in Sources */,
+				8428387825BADB4D00EE9314 /* User.swift in Sources */,
+				8428387525BADB4D00EE9314 /* Journey.swift in Sources */,
+				8428387725BADB4D00EE9314 /* Ticket.swift in Sources */,
+				8428387625BADB4D00EE9314 /* TelCom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842837FB25BAD78700EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428388325BADB4E00EE9314 /* AirportCity.swift in Sources */,
+				8428380425BAD78700EE9314 /* BookingClipUITests.swift in Sources */,
+				8428388525BADB4E00EE9314 /* Networks.swift in Sources */,
+				8428388425BADB4E00EE9314 /* BoardingPass.swift in Sources */,
+				8428388925BADB4E00EE9314 /* User.swift in Sources */,
+				8428388625BADB4E00EE9314 /* Journey.swift in Sources */,
+				8428388825BADB4E00EE9314 /* Ticket.swift in Sources */,
+				8428388725BADB4E00EE9314 /* TelCom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428381A25BAD92200EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428389725BADB4F00EE9314 /* Journey.swift in Sources */,
+				8428382325BAD92200EE9314 /* ContentView.swift in Sources */,
+				8428389425BADB4F00EE9314 /* AirportCity.swift in Sources */,
+				8428389925BADB4F00EE9314 /* Ticket.swift in Sources */,
+				8428389625BADB4F00EE9314 /* Networks.swift in Sources */,
+				8428389A25BADB4F00EE9314 /* User.swift in Sources */,
+				8428389525BADB4F00EE9314 /* BoardingPass.swift in Sources */,
+				8428389825BADB4F00EE9314 /* TelCom.swift in Sources */,
+				8428382125BAD92200EE9314 /* CheckInClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428382B25BAD92300EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842838A525BADB4F00EE9314 /* AirportCity.swift in Sources */,
+				8428383425BAD92300EE9314 /* CheckInClipTests.swift in Sources */,
+				842838A725BADB4F00EE9314 /* Networks.swift in Sources */,
+				842838A625BADB4F00EE9314 /* BoardingPass.swift in Sources */,
+				842838AB25BADB4F00EE9314 /* User.swift in Sources */,
+				842838A825BADB4F00EE9314 /* Journey.swift in Sources */,
+				842838AA25BADB4F00EE9314 /* Ticket.swift in Sources */,
+				842838A925BADB4F00EE9314 /* TelCom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428383625BAD92300EE9314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842838B625BADB5000EE9314 /* AirportCity.swift in Sources */,
+				8428383F25BAD92300EE9314 /* CheckInClipUITests.swift in Sources */,
+				842838B825BADB5000EE9314 /* Networks.swift in Sources */,
+				842838B725BADB5000EE9314 /* BoardingPass.swift in Sources */,
+				842838BC25BADB5000EE9314 /* User.swift in Sources */,
+				842838B925BADB5000EE9314 /* Journey.swift in Sources */,
+				842838BB25BADB5000EE9314 /* Ticket.swift in Sources */,
+				842838BA25BADB5000EE9314 /* TelCom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +1004,36 @@
 			isa = PBXTargetDependency;
 			target = 8428375125BA882300EE9314 /* CrossWind (macOS) */;
 			targetProxy = 8428376625BA882300EE9314 /* PBXContainerItemProxy */;
+		};
+		842837F625BAD78700EE9314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842837DD25BAD78500EE9314 /* BookingClip */;
+			targetProxy = 842837F525BAD78700EE9314 /* PBXContainerItemProxy */;
+		};
+		8428380125BAD78700EE9314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842837DD25BAD78500EE9314 /* BookingClip */;
+			targetProxy = 8428380025BAD78700EE9314 /* PBXContainerItemProxy */;
+		};
+		8428380725BAD78700EE9314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842837DD25BAD78500EE9314 /* BookingClip */;
+			targetProxy = 8428380625BAD78700EE9314 /* PBXContainerItemProxy */;
+		};
+		8428383125BAD92300EE9314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8428381D25BAD92200EE9314 /* CheckInClip */;
+			targetProxy = 8428383025BAD92300EE9314 /* PBXContainerItemProxy */;
+		};
+		8428383C25BAD92300EE9314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8428381D25BAD92200EE9314 /* CheckInClip */;
+			targetProxy = 8428383B25BAD92300EE9314 /* PBXContainerItemProxy */;
+		};
+		8428384225BAD92300EE9314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8428381D25BAD92200EE9314 /* CheckInClip */;
+			targetProxy = 8428384125BAD92300EE9314 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -480,6 +1152,7 @@
 		8428377925BA882300EE9314 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +1174,7 @@
 		8428377A25BA882300EE9314 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -649,6 +1323,276 @@
 			};
 			name = Release;
 		};
+		8428380A25BAD78700EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BookingClip/BookingClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BookingClip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BookingClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.BookingClip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8428380B25BAD78700EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BookingClip/BookingClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BookingClip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BookingClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.BookingClip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8428380E25BAD78700EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.BookingClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingClip.app/BookingClip";
+			};
+			name = Debug;
+		};
+		8428380F25BAD78700EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.BookingClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingClip.app/BookingClip";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8428381125BAD78700EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingClipUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.BookingClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookingClip;
+			};
+			name = Debug;
+		};
+		8428381225BAD78700EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingClipUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.BookingClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookingClip;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8428384525BAD92300EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheckInClip/CheckInClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckInClip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CheckInClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.CheckInClip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8428384625BAD92300EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheckInClip/CheckInClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckInClip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CheckInClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.CheckInClip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8428384825BAD92300EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckInClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.CheckInClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckInClip.app/CheckInClip";
+			};
+			name = Debug;
+		};
+		8428384925BAD92300EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckInClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.CheckInClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckInClip.app/CheckInClip";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8428384B25BAD92300EE9314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckInClipUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.CheckInClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckInClip;
+			};
+			name = Debug;
+		};
+		8428384C25BAD92300EE9314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckInClipUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.mdes.CrossWind.CheckInClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckInClip;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -697,6 +1641,60 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8428380925BAD78700EE9314 /* Build configuration list for PBXNativeTarget "BookingClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428380A25BAD78700EE9314 /* Debug */,
+				8428380B25BAD78700EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428380D25BAD78700EE9314 /* Build configuration list for PBXNativeTarget "BookingClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428380E25BAD78700EE9314 /* Debug */,
+				8428380F25BAD78700EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428381025BAD78700EE9314 /* Build configuration list for PBXNativeTarget "BookingClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428381125BAD78700EE9314 /* Debug */,
+				8428381225BAD78700EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428384425BAD92300EE9314 /* Build configuration list for PBXNativeTarget "CheckInClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428384525BAD92300EE9314 /* Debug */,
+				8428384625BAD92300EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428384725BAD92300EE9314 /* Build configuration list for PBXNativeTarget "CheckInClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428384825BAD92300EE9314 /* Debug */,
+				8428384925BAD92300EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428384A25BAD92300EE9314 /* Build configuration list for PBXNativeTarget "CheckInClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428384B25BAD92300EE9314 /* Debug */,
+				8428384C25BAD92300EE9314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -707,6 +1705,16 @@
 			);
 			currentVersion = 8428374125BA882200EE9314 /* Shared.xcdatamodel */;
 			path = CrossWind.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		842837EB25BAD78700EE9314 /* BookingClip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				842837EC25BAD78700EE9314 /* BookingClip.xcdatamodel */,
+			);
+			currentVersion = 842837EC25BAD78700EE9314 /* BookingClip.xcdatamodel */;
+			path = BookingClip.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
