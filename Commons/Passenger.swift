@@ -40,3 +40,26 @@ class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertibl
         return "\(salutation). \(firstName) \(middleName ?? .init()) \(lastName ?? .init())".trimmingCharacters(in: .whitespacesAndNewlines)
     }
     
+    enum CodingKeys: CodingKey {
+        case salutation
+        case firstName
+        case middleName
+        case lastName
+    }
+    
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        salutation = try container.decode(Salutation.self, forKey: .salutation)
+        firstName = try container.decode(String.self, forKey: .firstName)
+        middleName = try container.decode(String.self, forKey: .middleName)
+        lastName = try container.decode(String.self, forKey: .lastName)
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        
+        try container.encode(salutation, forKey: .salutation)
+        try container.encode(firstName, forKey: .firstName)
+        try container.encode(middleName, forKey: .middleName)
+        try container.encode(lastName, forKey: .lastName)
+    }
