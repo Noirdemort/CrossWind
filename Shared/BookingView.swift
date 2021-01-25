@@ -67,6 +67,22 @@ struct BookingView: View {
                 
             
         }
+                Section(header: Text("Ticket Details")) {
+                    if let data = ticket.qrData, let image = UIImage(data: data){
+                        Image(uiImage: image)
+                    }
+                    
+                    List(ticket.journeys, rowContent: JourneyView.init)
+                    
+                }
+                
+                Section(header: Text("Personal Details")) {
+                    Text("Payment Status: \(ticket.paymentStatus.rawValue.capitalized)")
+                    Text("PNR: \(ticket.PNR ?? "N/A")")
+                        .bold()
+                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
+                        
+                }
     }
     
     
