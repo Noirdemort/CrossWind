@@ -14,7 +14,17 @@ struct JourneyView: View {
 }
 
 struct JourneyView_Previews: PreviewProvider {
+    @State static var journey = Journey(flyingClass: .firstClass,
+                                        flightNumber: "Some Number",
+                                        terminal: "String",
+                                        travelDate: Date.init(),
+                                        checkInTime: Date(),
+                                        departure: AirportCity(cityCode: "BLR", cityName: "Bangalore"),
+                                        departureTime: Date(),
+                                        destination: AirportCity(cityCode: "KNP", cityName: "Kanpur"),
+                                        arrivalTime: Date(), relayVia: nil)
     static var previews: some View {
         JourneyView()
+        JourneyView(journey: journey)
     }
 }
