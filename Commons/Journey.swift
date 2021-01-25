@@ -9,6 +9,7 @@ import Foundation
 
 
 enum FlyingClass: String, RawRepresentable {
+enum FlyingClass: String, RawRepresentable, Codable {
     case economy
     case business
     case firstClass
@@ -21,6 +22,7 @@ struct Journey: Codable, Identifiable {
     
     // flight details
     let flyingClass: FlyingClass.RawValue
+    let flyingClass: FlyingClass
     let flightNumber: String
 
     
@@ -39,4 +41,17 @@ struct Journey: Codable, Identifiable {
     
     let relayVia: String?
     
+    enum CodingKeys: CodingKey {
+        case id
+        case flyingClass
+        case flightNumber
+        case terminal
+        case travelDate
+        case checkInTime
+        case departure
+        case departureTime
+        case destination
+        case arrivalTime
+        case relayVia
+    }
 }
