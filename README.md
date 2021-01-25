@@ -21,3 +21,9 @@ AutoFilled:   flyingClass, flightNumber,  terminal , travelDate , checkInTime, d
 1. User scans the qr code or visit site
 2. Seat selection is shown... user fills in the seat and moves to payment if required.
 3. A boarding pass is generated for this and saved to apple wallet... the rest details are relayed to server.
+
+
+# TODO:
+
+Bug - Passenger list record changes in the background but doesn't update immediately
+
