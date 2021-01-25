@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+extension String: Identifiable {
+    
+    public var id: String { self }
+    
+}
+
 struct ExtrasView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
