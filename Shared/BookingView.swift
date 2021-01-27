@@ -13,8 +13,6 @@ import Combine
 struct BookingView: View {
     
     @ObservedObject var ticket: Ticket
-    
-    @State var showPax = false
     @State var cancellableSet = Set<AnyCancellable>()
     
     init(ticket newTicket: Ticket) {
@@ -33,8 +31,6 @@ struct BookingView: View {
                     DatePicker("Choose booking date", selection: $ticket.bookingDate, displayedComponents: .date)
                     PhoneView(phone: $ticket.phone)
                     TextField("Email", text: $ticket.email.bound)
-                    ExtrasView(extras: ticket.extraServices)
-                    
                 }
                 
                 NavigationLink(
@@ -63,33 +59,28 @@ struct BookingView: View {
                 }
                 
                 Section(footer: Text( ticket.commsExist ? "" : "Phone or Email is Required." ).foregroundColor(.red) ){
-                Button("Book Ticket") {
-                    print(ticket.commsExist)
-                    ticket.commit()
-                }.disabled(!ticket.commsExist)
+                    
+                    Button("Book Ticket") {
+                        print(ticket.commsExist)
+                        ticket.commit()
+                    }.disabled(!ticket.commsExist)
+                    
+                    NavigationLink(destination: BookedView(ticket: ticket)){
+                        Text("Status: \(ticket.paymentStatus == .completed ? "Ticket Booked!" : "To Be Processed...")")
+                            .bold()
+                            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
+                    }
+                    
+                }
+               
             }
-            
-            }
-            
-            Button(action: {
-                print(ticket.commsExist)
-                ticket.commit()
-            }, label: {
-                
-                Text("Book Ticket")
-                    .font(.headline)
-                .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 0, idealHeight: 5, maxHeight: .infinity, alignment: .center)
-                .background(Color.blue)
-                .accentColor(.white)
-                .ignoresSafeArea()
-                .scaledToFit()
-                
-            }).disabled(!ticket.commsExist)
-            
-        }.navigationBarTitle("Ticket Window", displayMode: .automatic)
+           
+         }
+         .navigationBarTitle("Ticket Window", displayMode: .automatic)
+
     }
-    
 }
+
 
 struct BookingView_Previews: PreviewProvider {
     @StateObject static var ticks: Ticket = fetchTicket()
