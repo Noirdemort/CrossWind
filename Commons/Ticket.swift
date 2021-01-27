@@ -131,7 +131,6 @@ class Ticket: Identifiable, ObservableObject, Codable {
         print("Exporting model...")
         let encoder = JSONEncoder()
         encoder.dataEncodingStrategy = .deferredToData
-        encoder.keyEncodingStrategy = .convertToSnakeCase
         let encodedData = try? encoder.encode(self)
         if let data = encodedData {
             print(String(data: data, encoding: .utf8) ?? "Failed to Cast Ticket into JSON Object")
