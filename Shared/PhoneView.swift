@@ -13,11 +13,17 @@ struct PhoneView: View {
     var body: some View {
         HStack {
             Spacer(minLength: 5)
+            #if os(macOS)
+            TextField("Country Code", text: $phone.countryCode)
+            Spacer()
+            TextField("Phone Number", text: $phone.number)
+            #else
             TextField("Country Code", text: $phone.countryCode)
                 .keyboardType(.numberPad)
             Spacer()
             TextField("Phone Number", text: $phone.number)
                 .keyboardType(.numberPad)
+            #endif
             Spacer(minLength: 5)
         }
     }

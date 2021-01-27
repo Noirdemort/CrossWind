@@ -43,9 +43,15 @@ struct BookingView: View {
                 }
             
                 Section(header: Text("Ticket Details")) {
+                    #if os(macOS)
+                    if let data = ticket.qrData, let image = NSImage(data: data){
+                        Image(nsImage: image)
+                    }
+                    #else
                     if let data = ticket.qrData, let image = UIImage(data: data){
                         Image(uiImage: image)
                     }
+                    #endif
                     
                     List(ticket.journeys, rowContent: JourneyView.init)
                 }
@@ -76,7 +82,6 @@ struct BookingView: View {
             }
            
          }
-         .navigationBarTitle("Ticket Window", displayMode: .automatic)
 
     }
 }
