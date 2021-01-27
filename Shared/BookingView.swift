@@ -42,6 +42,9 @@ struct BookingView: View {
                        Text("Manage Passengers")
                 }
                 
+                Section(header: Text("Extras")){
+                    ExtrasView(extras: ticket.extraServices)
+                }
             
                 Section(header: Text("Ticket Details")) {
                     if let data = ticket.qrData, let image = UIImage(data: data){
