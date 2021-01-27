@@ -14,20 +14,11 @@ struct BookingView: View {
     
     @ObservedObject var ticket: Ticket
     
-    @State var comms: Bool = false
     @State var showPax = false
     @State var cancellableSet = Set<AnyCancellable>()
     
     init(ticket newTicket: Ticket) {
         ticket = newTicket
-        ticket.commsExist
-            .receive(on: RunLoop.main)
-            .map { commsExist in
-                return commsExist
-            }
-            .assign(to: \.comms, on: self)
-            .store(in: &cancellableSet)
-            
     }
     
     var body: some View {
@@ -80,6 +71,7 @@ struct BookingView: View {
                     print(ticket.commsExist)
                     ticket.commit()
                 }
+                }.disabled(!ticket.commsExist)
                 
             
             }
@@ -96,6 +88,7 @@ struct BookingView: View {
                 .ignoresSafeArea()
                 .scaledToFit()
             })
+            }).disabled(!ticket.commsExist)
         }.navigationBarTitle("Ticket Window", displayMode: .automatic)
     }
     
