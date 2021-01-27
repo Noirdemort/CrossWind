@@ -89,6 +89,7 @@ struct BookingView: View {
 
 struct BookingView_Previews: PreviewProvider {
     @StateObject static var ticks: Ticket = giveTicket()
+    @StateObject static var ticks: Ticket = fetchTicket()
     
     static var previews: some View {
         BookingView(ticket: ticks).environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)

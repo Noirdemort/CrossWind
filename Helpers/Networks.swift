@@ -25,12 +25,12 @@ func deploy<T: Codable>(urlRequest: URLRequest, completionHandler: @escaping (T)
         
 }
 
-
-func giveTicket() -> Ticket {
-    let ticks = Ticket()
-    ticks.passengers = [Passenger(salutation: .Mr, firstName: "John", lastName: "Appleseed"), Passenger(salutation: .Mr, firstName: "Tim", lastName: "Cook")]
-    ticks.email = "email@s1guza.net"
-    ticks.journeys = [Journey(flyingClass: .firstClass,
+// rename to fetchTicket
+func fetchTicket(for bookingID: String? = nil) -> Ticket {
+    let ticket = Ticket()
+    ticket.passengers = [Passenger(salutation: .Mr, firstName: "John", lastName: "Appleseed"), Passenger(salutation: .Mr, firstName: "Tim", lastName: "Cook")]
+    ticket.email = "email@s1guza.net"
+    ticket.journeys = [Journey(flyingClass: .firstClass,
                               flightNumber: "Some Number",
                               terminal: "String",
                               travelDate: Date.init(),
@@ -40,5 +40,5 @@ func giveTicket() -> Ticket {
                               destination: AirportCity(cityCode: "KNP", cityName: "Kanpur"),
                               arrivalTime: Date(), relayVia: nil)]
     
-    return ticks
+    return ticket
 }

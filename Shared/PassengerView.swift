@@ -72,5 +72,6 @@ struct PassengerView_Previews: PreviewProvider {
 
     static var previews: some View {
         PassengerView(ticket: giveTicket())
+        PassengerView(ticket: fetchTicket())
     }
 }
