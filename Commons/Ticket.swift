@@ -99,8 +99,10 @@ class Ticket: Identifiable, ObservableObject, Codable, CustomStringConvertible, 
         try container.encode(PNR, forKey: .PNR)
     }
     
+    // CustomDebugStringConvertible
     var debugDescription: String { return description }
     
+    // CustomStringConvertible
     var description: String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium

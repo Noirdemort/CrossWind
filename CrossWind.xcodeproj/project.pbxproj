@@ -484,13 +484,13 @@
 		8428378825BA89C300EE9314 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				8428378925BA89EE00EE9314 /* Ticket.swift */,
-				8428393125BE93A200EE9314 /* Passenger.swift */,
-				842837C725BAAB4700EE9314 /* Journey.swift */,
-				8428379625BA8AF400EE9314 /* User.swift */,
-				8428379F25BA8B9500EE9314 /* BoardingPass.swift */,
 				842837D025BAABEA00EE9314 /* AirportCity.swift */,
+				8428379F25BA8B9500EE9314 /* BoardingPass.swift */,
+				842837C725BAAB4700EE9314 /* Journey.swift */,
+				8428393125BE93A200EE9314 /* Passenger.swift */,
 				842837B625BA8E9700EE9314 /* TelCom.swift */,
+				8428378925BA89EE00EE9314 /* Ticket.swift */,
+				8428379625BA8AF400EE9314 /* User.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";

@@ -46,8 +46,8 @@ class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertibl
     }
     
     var id: String = UUID().uuidString
-    @Published var salutation: Salutation = .Mr
     
+    @Published var salutation: Salutation = .Mr
     @Published var firstName: String = ""
     @Published var middleName: String?
     @Published var lastName: String?
