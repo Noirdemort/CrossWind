@@ -1,5 +1,5 @@
 //
-//  CheckIn.swift
+//  BoardingPass.swift
 //  CrossWind
 //
 //  Created by Noirdemort on 22/01/21.
@@ -15,8 +15,7 @@ struct BoardingPass: Codable {
     
     // Personally Identifiable Information (PII)
     let qrData: Data
-    let salutation: String
-    let name: String
+    let passenger: Passenger
     let pnr: String
    
     // Flight Details
