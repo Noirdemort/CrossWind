@@ -71,7 +71,6 @@ struct PassengerView_Previews: PreviewProvider {
     @State static var pax: [Passenger] = [Passenger(salutation: .Mr, firstName: "John", lastName: "Appleseed"), Passenger(salutation: .Mr, firstName: "Tim", lastName: "Cook")]
 
     static var previews: some View {
-        PassengerView(ticket: giveTicket())
         PassengerView(ticket: fetchTicket())
     }
 }

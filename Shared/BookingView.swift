@@ -59,11 +59,12 @@ struct BookingView: View {
                         
                 }
                 
+                Section(footer: Text( ticket.commsExist ? "" : "Phone or Email is Required." ).foregroundColor(.red) ){
                 Button("Book Ticket") {
                     print(ticket.commsExist)
                     ticket.commit()
                 }.disabled(!ticket.commsExist)
-                
+            }
             
             }
             
@@ -88,7 +89,6 @@ struct BookingView: View {
 }
 
 struct BookingView_Previews: PreviewProvider {
-    @StateObject static var ticks: Ticket = giveTicket()
     @StateObject static var ticks: Ticket = fetchTicket()
     
     static var previews: some View {
