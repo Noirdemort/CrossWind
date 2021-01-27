@@ -73,7 +73,7 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "_XCAppClipURL"
-            value = "https://127.0.0.1:5000/?bookingID=2849223"
+            value = "http://127.0.0.1:5000/?bookingID=2849223"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
