@@ -39,6 +39,7 @@ func fetchTicket(for bookingID: String? = nil) -> Ticket {
                               departureTime: Date(),
                               destination: AirportCity(cityCode: "KNP", cityName: "Kanpur"),
                               arrivalTime: Date(), relayVia: nil)]
+    ticket.extraServices = ["Weight allowance": "20 Kgs"]
     
     return ticket
 }
