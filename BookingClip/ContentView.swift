@@ -13,11 +13,14 @@ struct ContentView: View {
     @State var bookingID: String?
     
     var body: some View {
-        Text("Moving to Tickets Booking")
-            .sheet(item: $bookingID){ (id) in
+        NavigationView {
+            NavigationLink("Ticket Window", destination: BookingView(ticket: fetchTicket(for: bookingID)))
+        }
+        .navigationTitle("Ticket Window")
+        .sheet(item: $bookingID){ (id) in
                 BookingView(ticket: fetchTicket(for: bookingID))
-            }
-            .onContinueUserActivity(NSUserActivityTypeBrowsingWeb, perform: handleUserActivity)
+        }
+        .onContinueUserActivity(NSUserActivityTypeBrowsingWeb, perform: handleUserActivity)
     }
     
     private func handleUserActivity(_ userActivity: NSUserActivity){
