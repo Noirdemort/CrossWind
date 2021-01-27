@@ -128,6 +128,8 @@ class Ticket: Identifiable, ObservableObject, Codable, CustomStringConvertible, 
     }
     
     func commit(){
+        self.paymentStatus = .completed
+        self.PNR = "BSR71"
         print("Printing Data from object...")
         print(description)
         print("Exporting model...")
