@@ -26,26 +26,19 @@ struct BookingView: View {
 //        VStack(alignment: .center, spacing: 10)
          NavigationView {
            
-        
             Form {
                 
                 Section(header: Text("Travel Details")) {
                     
                     DatePicker("Choose booking date", selection: $ticket.bookingDate, displayedComponents: .date)
-                        
-                    
                     PhoneView(phone: $ticket.phone)
-                    
                     TextField("Email", text: $ticket.email.bound)
-                    
-                   
-                    
                     ExtrasView(extras: ticket.extraServices)
                     
                 }
                 
                 NavigationLink(
-                    destination: PassengerView(passengers: $ticket.passengers)){
+                    destination: PassengerView(ticket: ticket)){
                        Text("Manage Passengers")
                 }
                 
@@ -56,7 +49,6 @@ struct BookingView: View {
                     }
                     
                     List(ticket.journeys, rowContent: JourneyView.init)
-                    
                 }
                 
                 Section(header: Text("Personal Details")) {
@@ -70,11 +62,11 @@ struct BookingView: View {
                 Button("Book Ticket") {
                     print(ticket.commsExist)
                     ticket.commit()
-                }
                 }.disabled(!ticket.commsExist)
                 
             
             }
+            
             Button(action: {
                 print(ticket.commsExist)
                 ticket.commit()
@@ -87,8 +79,9 @@ struct BookingView: View {
                 .accentColor(.white)
                 .ignoresSafeArea()
                 .scaledToFit()
-            })
+                
             }).disabled(!ticket.commsExist)
+            
         }.navigationBarTitle("Ticket Window", displayMode: .automatic)
     }
     
