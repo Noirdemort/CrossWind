@@ -26,3 +26,11 @@ extension Optional where Wrapped == String {
         }
     }
 }
+
+
+/// Done to Support String based List for SwiftUI
+extension String: Identifiable {
+    
+    public var id: String { self }
+    
+}
