@@ -9,12 +9,20 @@ import SwiftUI
 
 struct PassengerView: View {
     
-    @Binding var passengers: [Passenger]
-    
+    @ObservedObject var ticket: Ticket
+        
     @StateObject private var passenger = Passenger()
     
     private func removeRows(at offsets: IndexSet){
-        passengers.remove(atOffsets: offsets)
+        ticket.passengers.remove(atOffsets: offsets)
+    }
+    
+    private func addPassenger() {
+        let pax = Passenger(salutation: passenger.salutation,
+                            firstName: passenger.firstName,
+                            middleName: passenger.middleName,
+                            lastName: passenger.lastName)
+        ticket.passengers.append(pax)
     }
     
     var body: some View {
@@ -32,11 +40,10 @@ struct PassengerView: View {
                 TextField("First Name", text: $passenger.firstName)
                 TextField("Middle Name (Optional)", text: $passenger.middleName.bound)
                 TextField("Last Name (Optional)", text: $passenger.lastName.bound)
+                
                 Button("Add Passenger") {
-                    print(#function)
                     if !passenger.firstName.isEmpty {
-                        print("adding passenger")
-                        passengers.append(passenger)
+                        addPassenger()
                     } else {
                         NSLog("Passenger details empty")
                         print(passenger)
@@ -47,7 +54,7 @@ struct PassengerView: View {
             
             Section(header: Text("Passengers")){
                 List {
-                    ForEach(passengers, id: \.id) {
+                    ForEach(ticket.passengers, id: \.id) {
                         Text($0.fullName)
                     }
                     .onDelete(perform: removeRows)
@@ -62,7 +69,8 @@ struct PassengerView: View {
 
 struct PassengerView_Previews: PreviewProvider {
     @State static var pax: [Passenger] = [Passenger(salutation: .Mr, firstName: "John", lastName: "Appleseed"), Passenger(salutation: .Mr, firstName: "Tim", lastName: "Cook")]
+
     static var previews: some View {
-        PassengerView(passengers: $pax)
+        PassengerView(ticket: giveTicket())
     }
 }
