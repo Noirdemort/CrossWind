@@ -25,8 +25,8 @@ AutoFilled:   flyingClass, flightNumber,  terminal , travelDate , checkInTime, d
 
 # TODO:
 
-[-] Bug - Passenger list record changes in the background but doesn't update immediately
-[-] Add app clip entry 
-- implement helper for simulating network calls
-- write page for after booking 
-- Show sign-in with Apple on last page
+[-] Bug - Passenger list record changes in the background but doesn't update immediately  
+[-] Add app clip entry     
+- implement helper for simulating network calls  
+[-] write page for after booking   
+- Show sign-in with Apple on last page  
