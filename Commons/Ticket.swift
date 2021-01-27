@@ -42,13 +42,8 @@ class Ticket: Identifiable, ObservableObject, Codable {
     @Published var paymentStatus: PaymentStatus = .pending
     @Published var PNR: String? = nil
 
-    var commsExist: AnyPublisher<Bool, Never> {
-        
-        Publishers.CombineLatest($email, $phone)
-            .map { email, phone in
-                return email != nil || phone.isValid
-            }
-            .eraseToAnyPublisher()
+    var commsExist: Bool {
+        return email != nil || phone.isValid
     }
     
     // Codable
