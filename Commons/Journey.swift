@@ -15,7 +15,7 @@ enum FlyingClass: String, RawRepresentable, Codable {
 }
 
 
-struct Journey: Codable, Identifiable, CustomStringConvertible {
+struct Journey: Codable, Identifiable, CustomStringConvertible, CustomDebugStringConvertible {
     
     var id: String = UUID().uuidString
     
@@ -52,6 +52,8 @@ struct Journey: Codable, Identifiable, CustomStringConvertible {
         case arrivalTime
         case relayVia
     }
+    
+    var debugDescription: String { return description }
     
     var description: String {
         let dateFormatter = DateFormatter()

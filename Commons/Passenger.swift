@@ -15,7 +15,7 @@ enum Salutation: String, RawRepresentable, Codable, CaseIterable, Identifiable {
     var id: String { self.rawValue }
 }
 
-class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertible, Hashable {
+class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertible, Hashable, CustomDebugStringConvertible {
     
     static func == (lhs: Passenger, rhs: Passenger) -> Bool {
         return lhs.id == rhs.id &&
@@ -83,10 +83,20 @@ class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertibl
     
     var description: String {
         return """
-            Passenger Model
+            Passenger
 
+            Name: \(salutation). \(firstName)  \(middleName ?? .init()) \(lastName ?? .init())
+            """
+    }
+    
+    var debugDescription: String {
+        return """
+            Passenger Model
+            ID: \(id)
             Salutation: \(salutation)
-            Name: \(firstName)  \(middleName ?? "N/A") \(lastName ?? "N/A")
+            First Name: \(firstName)
+            Middle Name: \(middleName ?? "N/A")
+            Last Name: \(lastName ?? "N/A")
             """
     }
 }

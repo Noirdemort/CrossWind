@@ -1,5 +1,5 @@
 //
-//  Bookings.swift
+//  Ticket.swift
 //  CrossWind
 //
 //  Created by Noirdemort on 22/01/21.
@@ -15,7 +15,7 @@ enum PaymentStatus: String, Codable {
 }
 
 
-class Ticket: Identifiable, ObservableObject, Codable {
+class Ticket: Identifiable, ObservableObject, Codable, CustomStringConvertible, CustomDebugStringConvertible {
     
     internal init(id: String = UUID().uuidString) {
         self.id = id
@@ -98,6 +98,8 @@ class Ticket: Identifiable, ObservableObject, Codable {
         try container.encode(paymentStatus, forKey: .paymentStatus)
         try container.encode(PNR, forKey: .PNR)
     }
+    
+    var debugDescription: String { return description }
     
     var description: String {
         let dateFormatter = DateFormatter()

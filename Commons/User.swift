@@ -14,7 +14,9 @@ enum Membership: String, RawRepresentable, Codable {
     case platinum
 }
 
-struct User: Codable, Identifiable, CustomStringConvertible {
+struct User: Codable, Identifiable, CustomStringConvertible, CustomDebugStringConvertible {
+    
+    var debugDescription: String { return description }
     
     var description: String {
         return """
