@@ -10,27 +10,24 @@ import CoreData
 
 struct ContentView: View {
     
-    @State var deepLinkID: Int?
-    @StateObject var ticket = giveTicket()
+    @State var bookingID: String?
     
     var body: some View {
-        BookingView(ticket: ticket)
-            .sheet(item: $deepLinkID){ (id) in
-                NavigationView {
-                    Text("\(deepLinkID ?? .init())")
-                }
+        Text("Moving to Tickets Booking")
+            .sheet(item: $bookingID){ (id) in
+                BookingView(ticket: fetchTicket(for: bookingID))
             }
             .onContinueUserActivity(NSUserActivityTypeBrowsingWeb, perform: handleUserActivity)
     }
     
     private func handleUserActivity(_ userActivity: NSUserActivity){
-//        userActivity.webpageURL throw this into url components and get query
+        guard let url = userActivity.webpageURL else { return }
+        print(url)
+        guard let urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: true) else { return }
+        guard let query = urlComponents.queryItems?.first(where: { $0.name == "bookingID" }) else { return }
+        
+        bookingID = query.value
     }
-}
-
-extension Int: Identifiable {
-    
-    public var id: Int { self }
 }
 
 struct ContentView_Previews: PreviewProvider {
