@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-extension String: Identifiable {
-    
-    public var id: String { self }
-    
-}
-
 
 struct ExtrasView: View {
     var extras: [String: String] = [:]
