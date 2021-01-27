@@ -168,6 +168,16 @@
 		8428396325BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
 		8428396425BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
 		8428396525BEA4B200EE9314 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428395B25BEA4B200EE9314 /* ExtrasView.swift */; };
+		84E29CEC25C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
+		84E29CED25C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
+		84E29CEE25C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
+		84E29CEF25C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
+		84E29CF025C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
+		84E29CF125C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
+		84E29CF225C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
+		84E29CF325C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
+		84E29CF425C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
+		84E29CF525C1600700FBEEC1 /* BookedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E29CEB25C1600700FBEEC1 /* BookedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -303,6 +313,7 @@
 		8428393125BE93A200EE9314 /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
 		8428394625BE962B00EE9314 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
 		8428395B25BEA4B200EE9314 /* ExtrasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrasView.swift; sourceTree = "<group>"; };
+		84E29CEB25C1600700FBEEC1 /* BookedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,14 +416,15 @@
 			children = (
 				8428374225BA882200EE9314 /* CrossWindApp.swift */,
 				8428374325BA882200EE9314 /* BookingView.swift */,
+				84E29CEB25C1600700FBEEC1 /* BookedView.swift */,
 				8428395B25BEA4B200EE9314 /* ExtrasView.swift */,
 				8428394625BE962B00EE9314 /* PhoneView.swift */,
 				8428391C25BE92CD00EE9314 /* PassengerView.swift */,
 				8428390725BE914100EE9314 /* JourneyView.swift */,
 				8428374425BA882200EE9314 /* Persistence.swift */,
+				842838E825BE8C7400EE9314 /* Swift+Extensions.swift */,
 				8428374525BA882300EE9314 /* Assets.xcassets */,
 				8428374025BA882200EE9314 /* CrossWind.xcdatamodeld */,
-				842838E825BE8C7400EE9314 /* Swift+Extensions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -913,6 +925,7 @@
 			files = (
 				8428376E25BA882300EE9314 /* CrossWindApp.swift in Sources */,
 				842838E925BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
+				84E29CEC25C1600700FBEEC1 /* BookedView.swift in Sources */,
 				8428393225BE93A200EE9314 /* Passenger.swift in Sources */,
 				842837D125BAABEA00EE9314 /* AirportCity.swift in Sources */,
 				8428390825BE914100EE9314 /* JourneyView.swift in Sources */,
@@ -937,6 +950,7 @@
 			files = (
 				8428376F25BA882300EE9314 /* CrossWindApp.swift in Sources */,
 				842838EA25BE8C7400EE9314 /* Swift+Extensions.swift in Sources */,
+				84E29CED25C1600700FBEEC1 /* BookedView.swift in Sources */,
 				8428393325BE93A200EE9314 /* Passenger.swift in Sources */,
 				842837D225BAABEA00EE9314 /* AirportCity.swift in Sources */,
 				8428390925BE914100EE9314 /* JourneyView.swift in Sources */,
@@ -973,6 +987,7 @@
 				8428390A25BE914100EE9314 /* JourneyView.swift in Sources */,
 				842837D325BAABEA00EE9314 /* AirportCity.swift in Sources */,
 				842837B925BA8E9700EE9314 /* TelCom.swift in Sources */,
+				84E29CEE25C1600700FBEEC1 /* BookedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -994,6 +1009,7 @@
 				8428390B25BE914100EE9314 /* JourneyView.swift in Sources */,
 				842837D425BAABEA00EE9314 /* AirportCity.swift in Sources */,
 				842837BA25BA8E9700EE9314 /* TelCom.swift in Sources */,
+				84E29CEF25C1600700FBEEC1 /* BookedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1010,6 +1026,7 @@
 				8428386225BADB4D00EE9314 /* BoardingPass.swift in Sources */,
 				8428394B25BE962B00EE9314 /* PhoneView.swift in Sources */,
 				8428390C25BE914100EE9314 /* JourneyView.swift in Sources */,
+				84E29CF025C1600700FBEEC1 /* BookedView.swift in Sources */,
 				842837E325BAD78600EE9314 /* ContentView.swift in Sources */,
 				8428386425BADB4D00EE9314 /* Journey.swift in Sources */,
 				8428386525BADB4D00EE9314 /* TelCom.swift in Sources */,
@@ -1028,6 +1045,7 @@
 			files = (
 				8428387225BADB4D00EE9314 /* AirportCity.swift in Sources */,
 				8428392225BE92CD00EE9314 /* PassengerView.swift in Sources */,
+				84E29CF125C1600700FBEEC1 /* BookedView.swift in Sources */,
 				842837F925BAD78700EE9314 /* BookingClipTests.swift in Sources */,
 				8428394C25BE962B00EE9314 /* PhoneView.swift in Sources */,
 				8428387425BADB4D00EE9314 /* Networks.swift in Sources */,
@@ -1050,6 +1068,7 @@
 			files = (
 				8428388325BADB4E00EE9314 /* AirportCity.swift in Sources */,
 				8428392325BE92CD00EE9314 /* PassengerView.swift in Sources */,
+				84E29CF225C1600700FBEEC1 /* BookedView.swift in Sources */,
 				8428380425BAD78700EE9314 /* BookingClipUITests.swift in Sources */,
 				8428394D25BE962B00EE9314 /* PhoneView.swift in Sources */,
 				8428388525BADB4E00EE9314 /* Networks.swift in Sources */,
@@ -1072,6 +1091,7 @@
 			files = (
 				8428389725BADB4F00EE9314 /* Journey.swift in Sources */,
 				8428392425BE92CD00EE9314 /* PassengerView.swift in Sources */,
+				84E29CF325C1600700FBEEC1 /* BookedView.swift in Sources */,
 				8428382325BAD92200EE9314 /* ContentView.swift in Sources */,
 				8428394E25BE962B00EE9314 /* PhoneView.swift in Sources */,
 				8428389425BADB4F00EE9314 /* AirportCity.swift in Sources */,
@@ -1106,6 +1126,7 @@
 				8428391025BE914100EE9314 /* JourneyView.swift in Sources */,
 				842838AA25BADB4F00EE9314 /* Ticket.swift in Sources */,
 				842838A925BADB4F00EE9314 /* TelCom.swift in Sources */,
+				84E29CF425C1600700FBEEC1 /* BookedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1127,6 +1148,7 @@
 				8428391125BE914100EE9314 /* JourneyView.swift in Sources */,
 				842838BB25BADB5000EE9314 /* Ticket.swift in Sources */,
 				842838BA25BADB5000EE9314 /* TelCom.swift in Sources */,
+				84E29CF525C1600700FBEEC1 /* BookedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
