@@ -95,22 +95,7 @@ struct BookingView_Previews: PreviewProvider {
     }
 }
 
-func giveTicket() -> Ticket {
-    let ticks = Ticket()
-    ticks.passengers = [Passenger(salutation: .Mr, firstName: "John", lastName: "Appleseed"), Passenger(salutation: .Mr, firstName: "Tim", lastName: "Cook")]
-    ticks.email = "email@s1guza.net"
-    ticks.journeys = [Journey(flyingClass: .firstClass,
-                              flightNumber: "Some Number",
-                              terminal: "String",
-                              travelDate: Date.init(),
-                              checkInTime: Date(),
-                              departure: AirportCity(cityCode: "BLR", cityName: "Bangalore"),
-                              departureTime: Date(),
-                              destination: AirportCity(cityCode: "KNP", cityName: "Kanpur"),
-                              arrivalTime: Date(), relayVia: nil)]
-    
-    return ticks
-}
+
 
 //struct ContentView: View {
 //    @Environment(\.managedObjectContext) private var viewContext
