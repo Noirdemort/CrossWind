@@ -15,7 +15,15 @@ enum Salutation: String, RawRepresentable, Codable, CaseIterable, Identifiable {
     var id: String { self.rawValue }
 }
 
-class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertible {
+class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertible, Hashable {
+    
+    static func == (lhs: Passenger, rhs: Passenger) -> Bool {
+        return lhs.id == rhs.id &&
+            lhs.firstName == rhs.firstName &&
+            lhs.middleName == rhs.middleName &&
+            lhs.lastName == rhs.lastName
+    }
+    
     
     internal init(id: String = UUID().uuidString) {
         self.id = id
@@ -27,6 +35,14 @@ class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertibl
         self.firstName = firstName
         self.middleName = middleName
         self.lastName = lastName
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+        hasher.combine(salutation)
+        hasher.combine(firstName)
+        hasher.combine(middleName)
+        hasher.combine(lastName)
     }
     
     var id: String = UUID().uuidString
