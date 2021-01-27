@@ -8,6 +8,40 @@
 import Foundation
 import Combine
 
+
+struct TelCom: Codable, CustomStringConvertible, CustomDebugStringConvertible {
+    
+    var debugDescription: String {
+        return description
+    }
+    
+
+    var description: String {
+        return """
+            TelCom Model
+            
+            country code: \(countryCode)
+            phone number: \(number)
+
+            Is this number valid? \(isValid)
+            """
+    }
+    
+    var countryCode: String
+    var number: String
+
+
+    var isValid: Bool {
+        return !countryCode.isEmpty && number.count == 10
+    }
+    
+    enum CodingKeys: CodingKey {
+        case countryCode
+        case number
+    }
+}
+
+
 //class TelCom: Codable, ObservableObject {
 //
 //    @Published var countryCode: String
@@ -46,34 +80,4 @@ import Combine
 //
 //}
 
-struct TelCom: Codable, CustomStringConvertible, CustomDebugStringConvertible {
-    
-    var debugDescription: String {
-        return description
-    }
-    
 
-    var description: String {
-        return """
-            TelCom Model
-            
-            country code: \(countryCode)
-            phone number: \(number)
-
-            Is this number valid? \(isValid)
-            """
-    }
-    
-    var countryCode: String
-    var number: String
-
-
-    var isValid: Bool {
-        return !countryCode.isEmpty && number.count == 10
-    }
-    
-    enum CodingKeys: CodingKey {
-        case countryCode
-        case number
-    }
-}
