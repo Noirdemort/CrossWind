@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Describes salutations used by individuals.
 enum Salutation: String, RawRepresentable, Codable, CaseIterable, Identifiable {
     case Mr
     case Ms
@@ -15,15 +16,8 @@ enum Salutation: String, RawRepresentable, Codable, CaseIterable, Identifiable {
     var id: String { self.rawValue }
 }
 
+/// Describes a passenger info for a journey
 class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertible, Hashable, CustomDebugStringConvertible {
-    
-    static func == (lhs: Passenger, rhs: Passenger) -> Bool {
-        return lhs.id == rhs.id &&
-            lhs.firstName == rhs.firstName &&
-            lhs.middleName == rhs.middleName &&
-            lhs.lastName == rhs.lastName
-    }
-    
     
     internal init(id: String = UUID().uuidString) {
         self.id = id
@@ -37,14 +31,6 @@ class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertibl
         self.lastName = lastName
     }
     
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-        hasher.combine(salutation)
-        hasher.combine(firstName)
-        hasher.combine(middleName)
-        hasher.combine(lastName)
-    }
-    
     var id: String = UUID().uuidString
     
     @Published var salutation: Salutation = .Mr
@@ -56,6 +42,26 @@ class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertibl
         return "\(salutation). \(firstName) \(middleName ?? .init()) \(lastName ?? .init())".trimmingCharacters(in: .whitespacesAndNewlines)
     }
     
+    // MARK:- Equatable
+    static func == (lhs: Passenger, rhs: Passenger) -> Bool {
+        return lhs.id == rhs.id &&
+            lhs.firstName == rhs.firstName &&
+            lhs.middleName == rhs.middleName &&
+            lhs.lastName == rhs.lastName
+    }
+    
+    
+    // MARK:- Hashable
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+        hasher.combine(salutation)
+        hasher.combine(firstName)
+        hasher.combine(middleName)
+        hasher.combine(lastName)
+    }
+    
+    // MARK:- Codable
     enum CodingKeys: CodingKey {
         case salutation
         case firstName
@@ -81,6 +87,7 @@ class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertibl
     }
     
     
+    // MARK:- CustomStringConvertible
     var description: String {
         return """
             Passenger
@@ -89,6 +96,8 @@ class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertibl
             """
     }
     
+    
+    // MARK:- CustomDebugStringConvertible
     var debugDescription: String {
         return """
             Passenger Model

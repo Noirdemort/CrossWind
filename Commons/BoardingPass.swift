@@ -8,6 +8,7 @@
 import Foundation
 
 
+/// Represents boarding pass composing a single `Journey` and a single `Passenger`.
 struct BoardingPass: Codable {
     var id: String = UUID().uuidString
     

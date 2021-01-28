@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Represents Booked Data, later should show Sign-In with Apple 
 struct BookedView: View {
     
     @ObservedObject var ticket: Ticket

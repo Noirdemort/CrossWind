@@ -21,7 +21,6 @@ class Ticket: Identifiable, ObservableObject, Codable, CustomStringConvertible, 
         self.id = id
     }
     
-    
     var id: String = UUID().uuidString
     
     // User Provided
@@ -46,8 +45,7 @@ class Ticket: Identifiable, ObservableObject, Codable, CustomStringConvertible, 
         return email != nil || phone.isValid
     }
     
-    // Codable
-    
+    // MARK:- Codable
     enum CodingKeys: CodingKey {
         case id
         case bookingDate
@@ -63,7 +61,6 @@ class Ticket: Identifiable, ObservableObject, Codable, CustomStringConvertible, 
         case PNR
     
     }
-    
     
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -99,10 +96,10 @@ class Ticket: Identifiable, ObservableObject, Codable, CustomStringConvertible, 
         try container.encode(PNR, forKey: .PNR)
     }
     
-    // CustomDebugStringConvertible
+    // MARK:- CustomDebugStringConvertible
     var debugDescription: String { return description }
     
-    // CustomStringConvertible
+    // MARK:- CustomStringConvertible
     var description: String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium
@@ -129,6 +126,7 @@ class Ticket: Identifiable, ObservableObject, Codable, CustomStringConvertible, 
             """
     }
     
+    /// Mocks the booking of ticket, changes `paymentStatus` to `completed` and assigns `PNR`
     func commit(){
         self.paymentStatus = .completed
         self.PNR = "BSR71"

@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Allows for optional string types to be used inside SwiftUI using .bound as a proxy variable
 extension Optional where Wrapped == String {
     var _bound: String? {
         get {
@@ -28,7 +29,7 @@ extension Optional where Wrapped == String {
 }
 
 
-/// Done to Support String based List for SwiftUI
+/// Added to Support String based List for SwiftUI
 extension String: Identifiable {
     
     public var id: String { self }

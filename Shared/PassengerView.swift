@@ -7,16 +7,28 @@
 
 import SwiftUI
 
+/// Manage Passengers for a trip, Add or remove them.
+/// Passengers can't be edited just yet.
+///
+/// - Parameter ticket:`Ticket` for which passengers are to be managed.
+///
+/// **ForEach breaks data binding with @Binding if ticket.passengers is used.** Figure out why.
+///
+/// An internal Passenger StateObject is used for reactive flow.
 struct PassengerView: View {
     
     @ObservedObject var ticket: Ticket
         
     @StateObject private var passenger = Passenger()
     
+    /// Removes Passengers at the specified offsets
+    ///
+    /// - Parameter offsets: IndexSet of passengers to be removed from the ticket
     private func removeRows(at offsets: IndexSet){
         ticket.passengers.remove(atOffsets: offsets)
     }
     
+    /// Adds a copy of passenger class to the ticket passengers. Passenger is copied because its pass by reference.
     private func addPassenger() {
         let pax = Passenger(salutation: passenger.salutation,
                             firstName: passenger.firstName,

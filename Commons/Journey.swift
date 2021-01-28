@@ -8,6 +8,7 @@
 import Foundation
 
 
+/// Represents Flying class for Passengers, eg. Business, Economy etc.
 enum FlyingClass: String, RawRepresentable, Codable {
     case economy
     case business
@@ -15,6 +16,7 @@ enum FlyingClass: String, RawRepresentable, Codable {
 }
 
 
+/// Journey describes common data between a ticket and a boarding pass. This is used for transition from booking a ticket to generating a boarding pass.
 struct Journey: Codable, Identifiable, CustomStringConvertible, CustomDebugStringConvertible {
     
     var id: String = UUID().uuidString
@@ -39,6 +41,7 @@ struct Journey: Codable, Identifiable, CustomStringConvertible, CustomDebugStrin
     
     let relayVia: String?
     
+    // MARK:- Codable
     enum CodingKeys: CodingKey {
         case id
         case flyingClass
@@ -53,8 +56,10 @@ struct Journey: Codable, Identifiable, CustomStringConvertible, CustomDebugStrin
         case relayVia
     }
     
+    // MARK:- CustomDebugStringConvertible
     var debugDescription: String { return description }
     
+    // MARK:- CustomStringConvertible
     var description: String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium

@@ -8,6 +8,8 @@
 import Foundation
 
 
+/// Describes an AirPort City with `cityCode` e.g. BLR for Bangalore and `cityName` itself
+/// Uses CodingKey for Codable
 struct AirportCity: Codable, CustomStringConvertible {
     let cityCode: String
     let cityName: String

@@ -9,23 +9,8 @@ import Foundation
 import Combine
 
 
+/// Represent Telecom model for mobile number and country codes.
 struct TelCom: Codable, CustomStringConvertible, CustomDebugStringConvertible {
-    
-    var debugDescription: String {
-        return description
-    }
-    
-
-    var description: String {
-        return """
-            TelCom Model
-            
-            country code: \(countryCode)
-            phone number: \(number)
-
-            Is this number valid? \(isValid)
-            """
-    }
     
     var countryCode: String
     var number: String
@@ -35,9 +20,29 @@ struct TelCom: Codable, CustomStringConvertible, CustomDebugStringConvertible {
         return !countryCode.isEmpty && number.count == 10
     }
     
+    
+    // MARK:- Codable
     enum CodingKeys: CodingKey {
         case countryCode
         case number
+    }
+    
+    // MARK:- CustomDebugStringConvertible
+    var debugDescription: String {
+        return description
+    }
+    
+    
+    // MARK:- CustomStringConvertible
+    var description: String {
+        return """
+            TelCom Model
+            
+            country code: \(countryCode)
+            phone number: \(number)
+
+            Is this number valid? \(isValid)
+            """
     }
 }
 
