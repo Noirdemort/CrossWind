@@ -13,7 +13,6 @@ import Combine
 struct BookingView: View {
     
     @ObservedObject var ticket: Ticket
-    @State var cancellableSet = Set<AnyCancellable>()
     
     init(ticket newTicket: Ticket) {
         ticket = newTicket
