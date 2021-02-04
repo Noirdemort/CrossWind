@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+
+/// Shows journey details for the `Journey` model
+///
+/// Source of truth: BookingView.ticket.journey
+/// Interaction Index: 4
 struct JourneyView: View {
     
     var journey: Journey

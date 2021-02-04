@@ -10,6 +10,11 @@ import CoreData
 import Combine
 
 
+/// Presents a booking window for a user to book tickets.
+///
+/// Source of truth: Ticket (injected)
+/// 
+/// Interaction Index: 7
 struct BookingView: View {
     
     @ObservedObject var ticket: Ticket

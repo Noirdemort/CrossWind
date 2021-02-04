@@ -12,6 +12,10 @@ import SwiftUI
 ///
 /// - Parameter ticket:`Ticket` for which passengers are to be managed.
 ///
+///  Source of Truth: BookingView.ticket.passenger
+///  
+///  Interaction Index: 6
+///
 /// **ForEach breaks data binding with @Binding if ticket.passengers is used.** Figure out why.
 ///
 /// An internal Passenger StateObject is used for reactive flow.

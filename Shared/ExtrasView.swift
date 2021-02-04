@@ -8,6 +8,11 @@
 import SwiftUI
 
 
+/// ExtrasView display extra facilities availed by the `Passenger`
+///
+/// Source of truth: BookingView.ticket.extras
+/// 
+/// Interaction index: 4
 struct ExtrasView: View {
     var extras: [String: String] = [:]
     

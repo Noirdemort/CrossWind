@@ -7,7 +7,11 @@
 
 import SwiftUI
 
-/// Represents Booked Data, later should show Sign-In with Apple 
+/// Represents Booked Data, later should show Sign-In with Apple
+///
+/// Source of Truth: BookingView.ticket
+/// 
+/// Interaction Index: 4
 struct BookedView: View {
     
     @ObservedObject var ticket: Ticket

@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+/// Presents a view to edit detail for the `TelCom` Model and update it
+///
+/// Source of truth: BookingView.ticket.phone
+///
+/// Interaction Index: 6
 struct PhoneView: View {
     @Binding var phone: TelCom
     

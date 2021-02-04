@@ -8,12 +8,20 @@
 import Foundation
 
 
+/// Memberships available with the airlines.
+///
+/// Visit some random page (``https://example.com``) for an explanation about the memberships: what they mean and what benefits do they provide.
 enum Membership: String, RawRepresentable, Codable {
     case gold
     case silver
     case platinum
 }
 
+
+
+/// User describes a particular account for the airline... This is a user account and different from a `Passenger` type.
+///
+/// A `User` represent the unique id for customer to interact with the airline, it stores history and provide benefits and auth to the specified credentials. `Passenger` on the other hand, can refer to any pseudo-anonymous individual, booking a flight and eventually a seat with airline. A `User` recieves loyalty points and membership due to its unique interactions with the airline.
 struct User: Codable, Identifiable, CustomStringConvertible, CustomDebugStringConvertible {
     
     var debugDescription: String { return description }

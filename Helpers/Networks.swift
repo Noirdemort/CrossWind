@@ -26,6 +26,9 @@ func deploy<T: Codable>(urlRequest: URLRequest, completionHandler: @escaping (T)
 }
 
 // rename to fetchTicket
+/// Return a sample ticket instance with proper data
+/// - Parameter bookingID: unique ID referencing a specific flight booking
+/// - Returns: a ``Ticket`` class instance with sample data
 func fetchTicket(for bookingID: String? = nil) -> Ticket {
     let ticket = Ticket()
     ticket.passengers = [Passenger(salutation: .Mr, firstName: "John", lastName: "Appleseed"), Passenger(salutation: .Mr, firstName: "Tim", lastName: "Cook")]

@@ -17,6 +17,7 @@ enum Salutation: String, RawRepresentable, Codable, CaseIterable, Identifiable {
 }
 
 /// Describes a passenger info for a journey
+/// Edit this class to add informaqtion about the passenger
 class Passenger: Codable, ObservableObject, Identifiable, CustomStringConvertible, Hashable, CustomDebugStringConvertible {
     
     internal init(id: String = UUID().uuidString) {

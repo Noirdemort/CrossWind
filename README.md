@@ -30,3 +30,24 @@ AutoFilled:   flyingClass, flightNumber,  terminal , travelDate , checkInTime, d
 - implement helper for simulating network calls  
 [-] write page for after booking   
 - Show sign-in with Apple on last page  
+
+
+
+# Discourse:
+
+## Interaction Index
+
+Interaction Index (Interex), refers to the kind of interaction an entity can have with its source of truth. It follows a unix based mechanism to describe it:
+
+- 1 -> execute (X):  passed source of truth maybe a function or may allow to perform an operation on the entity and derive some value from it
+- 2 -> write (W) : entity writes and updates the source of truth.
+- 4 ->  read (R) : entity only reads the value of source of truth.
+
+Following the octal method of combining bits as followed by using, we can have multiple combinations of these 3 modes of operation: 1, 3, 5, 6, 7
+
+Interex system doesn't carry any syntactical meaning to the code. Its meant to denote semantic meaning in the documentation.
+
+For eg: X will often be used with either R or W or both.
+
+
+`Source of Truth` used in documentation maynot be feasible for all cases, SwiftUI views are quite reusable. However, the `Interaction Index` is always available as the scope of view operation or any entity operation is defined by the code and not injected unlike the `Source of Truth`.
