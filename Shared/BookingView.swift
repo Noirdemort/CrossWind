@@ -11,6 +11,7 @@ import Combine
 
 
 /// Presents a booking window for a user to book tickets.
+/// Checks for valid input and updates reactively to user and internal events, once proper data is available allows ticket confirmation and status for customers.ß
 ///
 /// Source of truth: Ticket (injected)
 /// 
